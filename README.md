@@ -30,8 +30,8 @@ Open the rules, direction, and manual pages from the **Guides** button.
 Clone the repository and move into the project folder:
 
 ```powershell
-git clone <repository-url>
-cd QC_model
+git clone https://github.com/pratikpiyush10/qc_model.git
+cd qc_model
 ```
 
 Create a virtual environment and install dependencies. Python 3.14 is the version this project uses.
