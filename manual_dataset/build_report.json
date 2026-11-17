@@ -1,0 +1,130 @@
+{
+ "skipped": [
+  {
+   "show": "Ultimate Warrior",
+   "episode": "Ep14",
+   "reason": "manual and storyboard are blank in Kronicle (file content 'EMPTY')",
+   "paths": [
+    "/workspace/manual_dataset/raw/uw_Ep14_manual.txt",
+    "/workspace/manual_dataset/raw/uw_Ep14_storyboard.txt"
+   ]
+  },
+  {
+   "show": "Ultimate Warrior",
+   "episode": "IOCSCRIPT1_V2",
+   "reason": "manual and storyboard are blank in Kronicle (file content 'EMPTY')",
+   "paths": [
+    "/workspace/manual_dataset/raw/uw_IOCSCRIPT1_V2_manual.txt",
+    "/workspace/manual_dataset/raw/uw_IOCSCRIPT1_V2_storyboard.txt"
+   ]
+  }
+ ],
+ "unmatched_scripts": [
+  "/workspace/uw/scripts/EP1.txt",
+  "/workspace/uw/scripts/EP2a_Blade.txt",
+  "/workspace/uw_ioc/ioc_doc.txt#section6",
+  "/workspace/uw_ioc/ioc_doc.txt#section7"
+ ],
+ "script_matches": {
+  "Ep1": [
+   {
+    "script_path": "/workspace/uw2/scripts/EP1.txt",
+    "dialogue_trigram_overlap_derived": 0.815
+   }
+  ],
+  "Ep2": [
+   {
+    "script_path": "/workspace/uw2/scripts/EP2.txt",
+    "dialogue_trigram_overlap_derived": 0.799
+   },
+   {
+    "script_path": "/workspace/uw/scripts/EP2b_Khatre.txt",
+    "dialogue_trigram_overlap_derived": 0.451
+   }
+  ],
+  "Ep3": [
+   {
+    "script_path": "/workspace/uw2/scripts/EP3.txt",
+    "dialogue_trigram_overlap_derived": 0.805
+   },
+   {
+    "script_path": "/workspace/uw/scripts/EP3.txt",
+    "dialogue_trigram_overlap_derived": 0.731
+   }
+  ],
+  "Ep4": [
+   {
+    "script_path": "/workspace/uw2/scripts/EP4.txt",
+    "dialogue_trigram_overlap_derived": 0.843
+   },
+   {
+    "script_path": "/workspace/uw/scripts/EP4.txt",
+    "dialogue_trigram_overlap_derived": 0.675
+   }
+  ],
+  "Ep5": [
+   {
+    "script_path": "/workspace/uw2/scripts/EP5.txt",
+    "dialogue_trigram_overlap_derived": 0.777
+   },
+   {
+    "script_path": "/workspace/uw_ep5/script.txt",
+    "dialogue_trigram_overlap_derived": 0.777
+   },
+   {
+    "script_path": "/workspace/uw/scripts/EP5.txt",
+    "dialogue_trigram_overlap_derived": 0.629
+   }
+  ],
+  "Ep6": [],
+  "Ep7": [],
+  "Ep8": [],
+  "Ep9": [],
+  "Ep10": [],
+  "Ep11": [],
+  "Ep12": [],
+  "Ep14.2": [],
+  "Ep15": [],
+  "Ep16": [],
+  "ioc1": [
+   {
+    "script_path": "/workspace/uw_ioc/ioc_doc.txt#section1",
+    "dialogue_trigram_overlap_derived": 0.717
+   }
+  ],
+  "ioc2": [
+   {
+    "script_path": "/workspace/uw_ioc/IOC2_script.txt",
+    "dialogue_trigram_overlap_derived": 0.705
+   },
+   {
+    "script_path": "/workspace/uw_ioc/ioc_doc.txt#section2",
+    "dialogue_trigram_overlap_derived": 0.705
+   }
+  ],
+  "ioc3": [
+   {
+    "script_path": "/workspace/uw_ioc/ioc_doc.txt#section3",
+    "dialogue_trigram_overlap_derived": 0.707
+   }
+  ],
+  "ioc4": [
+   {
+    "script_path": "/workspace/uw_ioc/ioc_doc.txt#section4",
+    "dialogue_trigram_overlap_derived": 0.641
+   }
+  ],
+  "ioc5": [
+   {
+    "script_path": "/workspace/uw_ioc/ioc_doc.txt#section5",
+    "dialogue_trigram_overlap_derived": 0.717
+   }
+  ],
+  "IOCSCRIPT1_V1": [
+   {
+    "script_path": "/workspace/uw_ioc/IOC1_script.txt",
+    "dialogue_trigram_overlap_derived": 0.783
+   }
+  ]
+ }
+}

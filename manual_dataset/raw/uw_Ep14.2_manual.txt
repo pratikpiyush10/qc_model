@@ -1,0 +1,104 @@
+Director Shooting Plan: EP14 — Pita Ka Jhooth
+① Theme, Intent, and Narrative Core
+Core Theme: A disowned prince discovers that his lifelong curse was his father's cowardly seal upon his divine destiny, transforming filial shame into explosive self-reclamation.
+Emotional Through-Line:
+Layer 1 (Exhaustion & Fractured Pride): Ragged breathing, stooped postures, hands clutching wounded flanks, and bitter grimaces while fleeing caustic mist.
+Layer 2 (Existential Rupture & Shattered Belief): Paralyzed postures, wide unblinking stares, trembling fingers releasing medical linen, and locked eye contact replacing fraternal evasion as the sacred vellum unmasks royal betrayal.
+Layer 3 (Volcanic Catharsis & Awakened Dread): Jaw clenching, tendons tightening into a white-knuckled fist, an explosive physical strike pulverizing solid granite, immediately pivoting to rigid defensive blade-draws as subterranean seismic tremors begin.
+Parting Impression & Expression Strategy: Deliver a vertical microdrama hook and cliffhanger. Frame paternal betrayal not as melodramatic monologue, but as physical violence against the environment that inadvertently awakens a slumbering beast, leaving the audience breathless at the unanswered cut.
+② Visual Style and Frame Tone
+Compositional Style:
+Vertical Stacking (9:16): Prioritize top-to-bottom depth over horizontal spread. Stack Ranvijay low against the entry boulder while Agnivesh stands upright by the central rock table, establishing an inverted status hierarchy.
+Frame-Within-a-Frame: Natural basalt rock arches and the dense falling water curtain box the characters in, emphasizing psychological entrapment and physical isolation.
+Opposing Profile Axial Lock: Align the two brothers along a rigid horizontal axis across the central rock during verbal clashes to preserve spatial orientation and accentuate fraternal tension.
+Rule-of-Thirds with Off-Centre Weight: Position isolated figures in the lower-third with oppressive overhead stone mass to visualize the burden of King Someshwar's lifelong deception.
+Three-Layer Spatial Separation:
+Foreground: Dripping ceiling points, unrolled cloth scroll edges, trembling blood-stained fingers, and flying rock fragments.
+Midground: Primary dramatic subjects — Agnivesh's illuminated wrist, Ranvijay collapsed against the entry rock clutching his flank, and Devika mediating with the scroll.
+Background: Sheer black basalt walls, the toxic green waterfall curtain, and the yawning dark fissure where the subterranean beast stirs.
+Camera Movement Preference:
+Kinetic microdrama default: no slow drifting or held static shots; handheld urgency and motivated reframes throughout.
+Fast push-in on operative narrative turns (the exact second the wrist mark aligns with the scroll mandala).
+Rapid whip reframe tracking Agnivesh's drawn-back fist accelerating into the stone wall.
+Controlled handheld vibration during the seismic floor tremors to convey tectonic destabilization.
+③ Narrative Structure and Pacing Plan
+Narrative Mode: Full-narrative arc optimized for vertical microdrama (Cold-Open Conflict Hook → Investigation & Treatment → Reversal & Paternal Unmasking → Kinetic Climax → Jeopardy Cliffhanger).
+Section Division:
+
+
+
+Section	Name	Scenes	Core Event	Emotional Intensity	Pacing
+1	The Toxic Threshold	EXT. Bhasm-Durg Canyon	Trio escapes gargoyles, identifies hidden opening, plunges through poison falls	Medium-High (3.5/5)	Kinetic, continuous hurried strides (~2s cuts)
+2	The Unmasked Heritage	INT. Cavern (Part 1)	Devika binds Ranvijay's cut; scroll exposes Someshwar's fear and Agnivesh's true lineage	High (4.5/5)	Deliberate, tense dialogue with rapid reaction cutting (~2s cuts)
+3	The Shattered Monolith	INT. Cavern (Part 2)	Agnivesh's anguish erupts into a kinetic fist strike, shattering the rear wall	Climax (5/5)	Sudden explosive escalation and physical impact (~1.5s cuts)
+4	The Subterranean Threat	INT. Cavern (Part 3)	Floor destabilizes; ancestral sword drawn as beast eyes awaken in the breach	Cliffhanger (5/5)	Rapid defensive recovery into frozen terror (~1.5s cuts)
+Emotional Curve: Adrenaline-fueled flight transitions into venomous fraternal antagonism, deepens into stunned grief upon the paternal revelation, detonates into kinetic fury, and snaps into breathless survival dread.
+Key Turning Points:
+Turning Point 1 (Hook): Compass needle snaps toward the waterfall opening as poison drops hiss on blackening thorn leaves.
+Turning Point 2 (Reversal): Devika lays Agnivesh's glowing wrist against the scroll's sun mandala; identical patterns align, vibrating the floor pebbles.
+Turning Point 3 (Climax): Agnivesh's knuckles flare before striking the rear stone wall, cracking the monolith from ceiling to floor.
+Turning Point 4 (Cliffhanger): Ranvijay draws his sword; the polished steel catches the reflection of two glowing eyes opening in the fresh chasm.
+④ Per-Scene Emotion and Frame Intent
+Scene 1: EXT. BHASM-DURG CANYON – NIGHT
+Emotional Target: Visceral physical urgency under immediate chemical peril.
+Atmosphere Direction: Caustic, oppressive, desolate.
+Shot Intent: Low-angle tracking shots to emphasize the crushing verticality of the canyon walls; tight inserts of corrosive droplets dissolving thorn leaves to prove the lethality of the poison mist before plunging through the falls.
+Spatial Narrative: Single-file march through a narrowing gorge blocked by a toxic waterfall barrier.
+Distance Design: Trailing shot behind Ranvijay's limping figure compresses rapidly into tight close-ups of Agnivesh wrapping his scarf and breaking through the veil.
+Scene 2: INT. CAVERN BEHIND THE POISON WATERFALL – NIGHT (Scroll Revelation)
+Emotional Target: Bitter disbelief shifting into the agonizing collapse of fraternal worldview.
+Atmosphere Direction: Cloistered, tense, sacred.
+Shot Intent: Tight medium-close-ups on Ranvijay's mocking smirk to establish arrogance, cutting immediately to macro inserts of the wrist mark locking with the scroll's sunburst to force undeniable recognition.
+Spatial Narrative: Triadic tension — wounded rival isolated at the perimeter rock, scholar-guide anchoring the central altar stone, and exiled heir suspended between domestic memory and cosmic truth.
+Distance Design: Two-shots during wound dressing collapsing into tight, confrontational single reaction cuts as Devika exposes the king's deception.
+Scene 3: INT. CAVERN – CONTINUOUS (Fist Strike & Beast Awakening)
+Emotional Target: Cathartic volcanic liberation immediately seized by primal survival terror.
+Atmosphere Direction: Volatile, subterranean, menacing.
+Shot Intent: Frame Agnivesh from a low angle against the sheer rear wall to amplify physical isolation, punch in fast on his knuckles before impact, then reframe rapidly as falling debris forces characters to scramble.
+Spatial Narrative: Catastrophic spatial collapse — the solid cavern boundary shatters into an open chasm, reconfiguring defensive positions.
+Distance Design: Wide frame of the cracking monolith cutting instantly into an extreme close-up of Ranvijay's raised blade reflecting the beast's waking eyes.
+⑤ Sound Direction
+Ambient Sound Design:
+Scene 1: High canyon wind whistling through basalt crevasses; distant gargoyle screech fading out; sharp corrosive sizzle of toxic droplets eating foliage; heavy dull roar of crashing waterfall curtain.
+Scene 2: Rhythmic water droplets falling into hollow rock pools; ragged, strained gasping from Ranvijay; crisp tearing and pressing of linen bandages; dry textured scrape of stiffened vellum unfurling across rough stone.
+Scene 3: Deep resonant subterranean grinding groan; sharp thunderous snap of splitting granite; clattering shower of stone shards across wet floor; high metallic scrape of the ancestral blade clearing its scabbard; heavy guttural inhalation of the sleeping titan.
+Use of Silence: Two full seconds of absolute acoustic dead air immediately after Agnivesh's fist strikes the wall — suspended dust floating in stillness — before the subterranean tremor groans awake.
+⑥ Transitions and Visual Continuity
+Inter-Scene Transition Strategy:
+Scene 1 to Scene 2: Hard cut as Ranvijay plunges through the water curtain, instantly cutting to the muted cave interior with water cascading off armour and Agnivesh setting down his spear.
+Scene 2 to Scene 3: Seamless continuous real-time cut; match-cut on Agnivesh's pivoting heel as he walks from the scroll to the rear stone wall.
+Visual Continuity Anchors:
+Prince Ranvijay's Armour: Three claw gouges across the left chestplate, caked with dry mud and soot in the canyon, washed wet with exposed scratches and a clutched flank wound inside the cavern.
+Prince Agnivesh's Wrist Mark: Faint hilt mark on inner right wrist in the canyon → flares beside the unrolled scroll → blazing golden knuckles during the fist strike.
+Iron Spear: Slung across Agnivesh's back in the canyon → leaned against the cave entrance rock in Scene 2 → remains trapped across the shaking floor in Scene 3.
+Vishva-Satva Scroll: Enclosed in cross-body holster → unrolled flat across the central rock table → snatched against Devika's chest during the tremor.
+⑦ Derivative Asset Pre-Plan List
+
+
+
+Asset name	Derivative state	Reason / section of appearance
+Prince Ranvijay	wet scratched armour	Costume variant showing washed-clean wet gold armour with exposed claw gouges and clutched flank wound across Scenes 2 & 3
+Poison Waterfall Cavern	multi-view reference	Full-coverage structural reference sheet for the scene, used by storyboarding and later derivative generation
+Poison Waterfall Cavern	reverse view toward entrance	Angle variant looking back toward the toxic waterfall curtain, entry boulder, and leaning spear in Scene 2
+Poison Waterfall Cavern	cracked back-wall state	Destruction and state variant depicting the shattered stone monolith with floor-to-ceiling fissures and cavernous breach in Scene 3
+Vishva-Satva Scroll	unfurled glowing state	Prop state variant showing unrolled lacquered cloth displaying the illuminated sun mandala and five lands in Scene 2
+Stone Demon	shadow silhouette and glowing eyes	Structural creature state showing the colossal rock beast's shadowed profile and dull-red obsidian eyes in the breach in Scene 3
+(Note: Duplicate derivatives already present in the workspace asset library — including Agnivesh travel attire version, Agnivesh wrist mark activated version, Devika travelling outfit, and Bhasm-Durg Canyons multi-view reference — have been completely purged from this pre-plan list).
+
+⑧ Production & Generation Execution Plan
+Format & Delivery Standard:
+Aspect Ratio: Vertical 9:16 (openai/gpt-image-2.5-sunburst generation standard).
+Pacing Profile: Kinetic short-form microdrama (~1.5–3s average shot duration; 3-second cold-open conflict hook).
+Group Duration Limit: Cap each multi-shot sequence to ≤30 seconds per generation group (Seedance 2.5 constraint). Total episode duration ~120s segmented into 4 discrete generation groups.
+Generation Group Breakdown:
+Group 1 (0:00–0:25, Canyon Flight & Waterfall Breach): EXT canyon escape → compass alignment → plunge through poison waterfall. High kinetic energy, tracked handheld moves.
+Group 2 (0:25–0:55, Medical Binding & Altar Setup): Entry recovery → Ranvijay drops against boulder → Devika binds wound → Agnivesh examines wrist mark. Shot-reverse-shot dialogue coverage.
+Group 3 (0:55–1:25, The Paternal Unmasking): Unfurling scroll → wrist mark alignment → Someshwar revelation → fraternal reaction cuts. Rapid punch-ins on operative dialogue beats.
+Group 4 (1:25–2:00, The Fist Strike & Subterranean Awakening): Agnivesh walks to wall → fist punch impact → wall fracture → floor tremor → blade draw → beast eye reveal. High-impact physics and cliffhanger cut.
+Reference Anchor Discipline:
+Character references: @crown_prince_sheet (Agnivesh), @warrior_prince_sheet (Ranvijay), @Devika_sheet (Devika).
+Derivative state citation: Always cite exact state (@PrinceRanvijay_wet_scratched_armour, @SceneSheet_PoisonWaterfallCavern#p3_cracked_wall, @VishvaSatvaScroll_unfurled_glowing) without falling back to base.
+Negative prompt enforcement: Apply N-CORE + N-HUMAN to all character shots; apply N-CORE + N-ENV to cavern background plates.
+Physics & Motivated-Light Rules:
+All magical glow (Agnivesh wrist mark, scroll mandala, glowing knuckles) must behave as physically motivated 2200K practical point lights with realistic falloff and occlusion across skin and rock surfaces.
+Wall impact must render true brittle fracture mechanics: volumetric stone dust, fractured basalt gravel, zero motion-ghosting, and sharp short-shutter impact blur.

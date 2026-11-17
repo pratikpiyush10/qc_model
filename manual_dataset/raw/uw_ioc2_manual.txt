@@ -1,0 +1,65 @@
+IOC2 - DIRECTOR'S MANUAL (Ek Dulhan, Do Rajkumar) - 20 sec
+
+1. THEME / PREMISE
+
+A one-night marriage pact turns into a love triangle. Agnivesh offers Devika a vivaah taadpatra valid for only one night; Devika tests him with a soft confession; Ranvijay bursts in with his sword to stop it. Hook question for the audience: "Aakhir kiski hogi Devika?"
+
+2. VISUAL STYLE & FRAMING
+
+16:9 frame, all key action and faces kept inside the centre 9:16 safe area. Royal Indian period look, warm diya and mashaal light inside the Rajmahal Royal Chamber, deep reds and gold. Devika in red bridal vastra and jewellery; Agnivesh and Prince Ranvijay exactly as their approved character assets. Camera: smooth mechanical moves only (slow dolly, push-in, slow arc, tilt). No handheld, no whip-pans, no crash zooms. Every shot has gentle motion.
+
+3. NARRATIVE STRUCTURE / PACING
+
+0-5s: Setup. Shahi kaksh. Devika stands in bridal red. Agnivesh places the Marriage Scroll (taadpatra) in front of her. AGNIVESH: "Yeh vivaah keval ek raat ke liye hoga!"
+
+5-11s: Intimacy. Devika steps close, takes his hand and places it on her waist. DEVIKA (soft voice): "Aur agar ek raat mein mujhe tumse prem ho gaya toh?"
+
+11-16s: Rupture. Agnivesh looks into her eyes. The chamber door bangs open. Ranvijay stands in the doorway holding the Royal sword. RANVIJAY: "Devika! Tum mere bhai ki patni nahi ban sakti!"
+
+16-20s: Hook. Hold on the three of them. NARRATOR: "Ek dulhan... do rajkumar! Aakhir kiski hogi Devika?"
+
+4. SCENE-BY-SCENE EMOTION
+
+0-5s: Agnivesh calm, guarded, formal. Devika composed, curious.
+
+5-11s: Devika tender, daring; Agnivesh still, caught off guard.
+
+11-16s: Shock. Ranvijay furious and possessive; Devika startled; Agnivesh turns to face him, protective.
+
+16-20s: Tension frozen; triangle composition, Devika in the centre.
+
+5. DIEGETIC SOUND
+
+No music. SFX only: diya flame crackle, soft rustle of bridal fabric and bangles, scroll unrolling on wood, footsteps, heavy door slamming open, sword ring. Narrator voice-over only in 16-20s.
+
+6. TRANSITIONS & CONTINUITY ANCHORS
+
+One continuous location: Rajmahal Royal Chamber. The chamber door is the single entry point; Ranvijay enters only through it.
+
+Positions lock: Agnivesh frame-left, Devika frame-right facing him for 0-11s; when the door opens Ranvijay appears in the background doorway, and in 16-20s the triangle reads Agnivesh left, Devika centre, Ranvijay right. Keep these sides the same in every shot.
+
+Marriage Scroll stays where Agnivesh placed it for the rest of the IOC.
+
+7. DERIVATIVE ASSET PRE-PLAN
+
+Characters: Devika (bridal red look), Agnivesh, Prince Ranvijay. Location: Rajmahal Royal Chamber. Props: Marriage Scroll, Royal sword (in Ranvijay's hand). No other new assets needed.
+
+8. NINNI'S DIRECTOR RULES (apply to every track)
+
+- Dialogue is used exactly as written in the script, word for word. No rewording, no added or removed lines.
+
+- Only the speaking character's mouth moves on their line; everyone else keeps their mouth closed.
+
+- Every shot carries a Positions line; character sides and screen direction stay locked from shot to shot and from track to track. No character suddenly changes side, turns around or faces the wrong way.
+
+- Characters look at the person they are talking to.
+
+- The rendered location must match the location asset exactly, used as the background plate. No invented or redesigned layout, no mixing of conflicting location refs.
+
+- Add every relevant existing asset (each character, location and prop in the shot) as a reference.
+
+- Shot size and camera move follow the Storyboard Table. Shots, shot order and framing are not changed once approved.
+
+- No eye glow on any character.
+
+- Never regenerate an approved asset unless Ninni asks. Devika is never regenerated.

@@ -1,0 +1,102 @@
+Director Creative Plan & Derivative Asset Specification
+① Theme, Intent, and Narrative Core
+Core Theme: Arrogant mortal sovereignty shatters when brought against the immutable decree of cosmic lineage.
+Emotional Through-Line:
+Layer 1 (Guarded Intimacy): Shallow, quickened breathing, hurried glances over shoulders, and bodies drawn close into the recessed shadows between stone colonnades.
+Layer 2 (Cold Betrayal & Mortal Terror): A woman prostrated upon stone flagstones, elbows locked around a swaddled infant as she recoils from an upright monarch stepping backward to draw steel.
+Layer 3 (Karmic Inversion & Awe): Total physical recoil as an invisible concussive shockwave throws the aggressor across the floor, leaving the newborn unmoving in absolute stillness.
+Parting Impression & Expression Strategy: Deliver an abrupt visual reversal where tyrannical authority is humbled before an untouchable infant heir. Staging exploits sharp vertical status divides, kinetic character actions, and abrupt mechanical disruptions rather than narrative exposition.
+② Visual Style and Frame Tone
+Compositional Style:
+Vertical Stacking (9:16): Characters are arrayed along the vertical axis to display rank disparities. Maharaja Someshwar (876712ba-0f12-44bd-b0bd-dc0861128790) commands the upper two-thirds standing erect; Daasi (636cca52-be95-4619-8f27-1eda012e21ba) and Shishu (fc47f758-9e6e-4994-bfd9-08969bc9291e) occupy the lower third on the floor plane.
+Central Dynamic Symmetry: The divine shockwave and shattering steel utilize strict central framing to convey unbending cosmic intervention.
+Three-Layer Spatial Staging:
+Foreground: Heavy silk drapes or the glint of an unsheathing blade entering the frame border to guide focus.
+Midground: Characters performing continuous physical actions (embracing, kneeling, stepping back, drawing, recoiling).
+Background: Massive carved sandstone pillars, latticed stone jali openings, and high vaulted archways establishing depth.
+Camera Movement Preference:
+Forward push-in along the central hallway axis to tighten psychological tension.
+Rapid whip-pan connecting the monarch's gaze to the unsheathed weapon.
+Extreme low-angle tracking under the falling blade to accentuate danger.
+Steady crane-up pull-back detaching from personal violence to reveal fortress architecture.
+③ Narrative Structure and Pacing Plan
+Narrative Mode Selection: Source-Faithful Microdrama Prologue Arc (Fast-paced vertical delivery).
+Section Division:
+
+
+
+Section	Name	Shots	Core Event	Emotional Intensity	Pacing
+Sec 1	Clandestine Union	Shots 1–2	Cautious embrace in palace corridor shadows; sudden torch match-cut.	4/10	Measured forward drift
+Sec 2	The Severed Bond	Shots 3–4	Mother weeps on flagstones; Someshwar unsheathes blade in repudiation.	7/10	Sharp whip-pan cut
+Sec 3	Cosmic Retribution	Shots 5–6	Blade strikes invisible threshold, shatters, and flings Someshwar backward.	10/10 (Climax)	120fps suspension → explosive burst
+Sec 4	The Untouchable Heir	Shot 7	Infant lies unharmed as the fortress dawn silhouette rises behind.	6/10	Expansive crane pull-out
+Emotional Curve: Tightens from clandestine apprehension to acute mortal peril upon the draw of steel, culminates in an explosive physical shockwave, and stabilizes in solemn anticipation.
+Key Turning Points (Visual Means):
+Turning Point 1 (Sec 1 to Sec 2): Match-cut from intimate facial profiles to an erupting flame on Wall Torch (2dad23e8-0125-4e82-82b4-374f999f0f49), cutting down to a weeping figure collapsed on flagstones.
+Turning Point 2 (Sec 2 to Sec 3): Extreme POV angle looking up beneath the descending edge of Royal sword (dcd56d1c-e8cf-4c41-ac14-3a79fb461c02), snapped instantly to an overhead bird's-eye perspective as the steel explodes into shrapnel and hurls the king across the floor.
+Inter-Section Transitions: Action-driven hard cuts; optical match-cut on flame; sudden temporal shift from slow-motion suspension to real-time physical recoil; upward crane lift into title graphic.
+④ Per-Scene Emotion and Frame Intent
+Scene 1: Grand Corridor — The Clandestine Union (Shots 1–2)
+Workspace Anchor: Grand Corridor (8ecc9f3c-3338-4044-b954-4f5b498b029e)
+Emotional Target: Quickened shallow breaths, parted lips, and cautious sideways eye darts into adjoining colonnade shadows.
+Atmosphere Direction: Clandestine, volatile, fragile.
+Shot Intent: Isolate the physical intimacy of Maharaja Someshwar (876712ba-0f12-44bd-b0bd-dc0861128790) and Daasi (636cca52-be95-4619-8f27-1eda012e21ba) within the cavernous palace before betrayal strikes.
+Spatial Narrative: Staged between two carved sandstone pillars with fluttering silk drapes framing the edge of frame.
+Distance Design: Medium two-shot narrows smoothly into a tight profile close-up where breaths mingle.
+Scene 2: Grand Corridor — Repudiation and the Drawn Blade (Shots 3–4)
+Workspace Anchor: Grand Corridor (8ecc9f3c-3338-4044-b954-4f5b498b029e)
+Emotional Target: Wet tear streaks cutting across dusky cheeks, fingernails digging into cotton fabric, jaw muscles clenching in rigid repudiation.
+Atmosphere Direction: Severe, pitiless, lethal.
+Shot Intent: Magnify the insurmountable social gulf between the prostrate mother and the standing monarch.
+Spatial Narrative: Diagonal staging. Daasi (636cca52-be95-4619-8f27-1eda012e21ba) crouches low in the lower-left quadrant; Maharaja Someshwar (876712ba-0f12-44bd-b0bd-dc0861128790) stands upright along the right axis.
+Distance Design: Low-angle medium close-up on the pleading mother snaps to an extreme close-up of cold eyes, followed by a low-angle medium shot framing the full draw of the sword.
+Scene 3: Grand Corridor — The Cosmic Rupture (Shots 5–6)
+Workspace Anchor: Grand Corridor (8ecc9f3c-3338-4044-b954-4f5b498b029e)
+Emotional Target: Fixed unblinking infant gaze confronted by descending steel; the king's eyes widening in shock as his balance is ripped away.
+Atmosphere Direction: Seismic, dread, divine vengeance.
+Shot Intent: Place the lens directly in the fatal path of the blade to maximize immediate peril, then reveal the absolute failure of mortal violence.
+Spatial Narrative: Upward vertical axis from the infant crib plane followed by a 90-degree overhead top-down view showing the radial dispersal of steel fragments.
+Distance Design: Zero-distance point-of-view expanding instantly into a high-angle overhead full shot.
+Scene 4: Suryagarh Citadel — The Sovereign Heir (Shot 7)
+Workspace Anchor: Suryagarh Citadel (140a20ae-cabe-4997-a827-1b103a498dd2)
+Emotional Target: Slow, rhythmic breathing of a resting infant; absolute stillness against massive mountain battlements.
+Atmosphere Direction: Vast, solemn, ominous.
+Shot Intent: Contrast the vulnerable child with the sprawling stone stronghold he is destined to claim.
+Spatial Narrative: Shishu (fc47f758-9e6e-4994-bfd9-08969bc9291e) rests horizontally in the foreground; the towering spires and battlements of Suryagarh Citadel (140a20ae-cabe-4997-a827-1b103a498dd2) rise in the misty background.
+Distance Design: Close-up on the child draws back smoothly into an extreme wide architectural landscape.
+⑤ Sound Direction
+Ambient Sound Design:
+Palace Interior (Shots 1–4): Low night wind whistling through carved stone jali screens; distant screech of an owl; soft brushing of heavy silk brocade against stone; metallic scrape of steel sliding over a brass scabbard lip; dull thud of knees hitting polished marble.
+Climactic Impact (Shots 5–6): Piercing sonic crack of fracturing tempered steel; dozens of crystalline metal fragments clattering and skittering over marble; heavy thud of an armored adult body crashing into stone flagstones.
+Exterior Fort (Shot 7): Gusting mountain wind howling across high battlements; distant low boom of a bronze temple conch echoing from the lower valleys.
+Use of Silence:
+The Vacuum Beat (Shot 5): At the exact split second the blade reaches its downward apex above the infant's forehead, all wind, breathing, and movement cut abruptly into complete, absolute dead silence for 0.4 seconds, ending with the acoustic detonation of the shattering blade.
+⑥ Transitions and Visual Continuity
+Inter-Scene Transition Strategy: Hard cuts driven by physical actions and eye-line snaps; optical match-cut from faces in profile to an erupting flame.
+Inter-Section Transition Technique: Sudden whip-pan camera move; temporal step down from high-speed slow motion to real-time physical impact; crane pull-back dissolving into the closing graphic.
+Visual Continuity Anchors:
+Maharaja Someshwar (876712ba-0f12-44bd-b0bd-dc0861128790): Peacock blue-green silk brocade angarkha, gold sun-mandala chest plate, tall ruby-set mukut crown, gold vambraces on forearms.
+Daasi (636cca52-be95-4619-8f27-1eda012e21ba): Homespun beige-brown cotton sari, unadorned leather slippers, low tied hair bun at nape.
+Shishu (fc47f758-9e6e-4994-bfd9-08969bc9291e): Raw cream-and-ochre cotton swaddling wrap, glowing forehead mark, serene facial micro-expression.
+Royal sword (dcd56d1c-e8cf-4c41-ac14-3a79fb461c02): White jade hilt carved with makara crossguard, watered wootz damascus steel blade with engraved gold sun motifs prior to shatter.
+Wall Torch (2dad23e8-0125-4e82-82b4-374f999f0f49): Wrought-iron wall sconce mounted on chiseled sandstone with fan-shaped soot pattern.
+⑦ Derivative Asset Pre-Plan List
+Audit Note: Pruned pre-existing derivatives in the workspace: Grand Corridor already possesses multi-view reference (4d356552-5e40-4e4c-bae1-37bb36c4755b), Reverse View (187b4efe-317a-49a5-b4f0-d2a06d0e35ae), and push-in view (a117c727-15c2-4f68-b26d-793fd69d5f2b). Maharaja Someshwar base sheet already represents the formal royal court attire. Only missing, non-duplicate states are scheduled below.
+
+
+
+
+Asset name	Derivative state	Reason / section of appearance
+Maharaja Someshwar (876712ba-0f12-44bd-b0bd-dc0861128790)	shockwave disheveled	Angarkha loosened, crown shifted askew, dust and soot across shoulders after concussive throw; required for Sec 3 (Shot 6).
+Daasi (636cca52-be95-4619-8f27-1eda012e21ba)	distressed tears state	Homespun cotton sari disheveled, pallu slipped off shoulder, wet tear streaks and trembling expression; required for Sec 2 (Shots 3–4).
+Shishu (fc47f758-9e6e-4994-bfd9-08969bc9291e)	swaddled resting state	Bound securely in raw cotton cloth in calm repose on flagstones; required for Sec 2–4 (Shots 3–7).
+Grand Corridor (8ecc9f3c-3338-4044-b954-4f5b498b029e)	top-down view	90-degree perpendicular overhead perspective looking down at marble floor and scattered debris; required for Sec 3 (Shot 6).
+Suryagarh Citadel (140a20ae-cabe-4997-a827-1b103a498dd2)	multi-view reference	Full-coverage structural reference sheet for the scene, required by scene consistency standards for subsequent generation.
+Suryagarh Citadel (140a20ae-cabe-4997-a827-1b103a498dd2)	dawn wide view	Elevated panoramic angle framing mountain ramparts and palace towers emerging through dawn mist; required for Sec 4 (Shot 7).
+Royal sword (dcd56d1c-e8cf-4c41-ac14-3a79fb461c02)	shattered fragments	Fractured damascus wootz steel blade shards and detached makara-head hilt scattered on marble floor; required for Sec 3 (Shot 6).
+⑧ Execution Steps & Implementation Pipeline
+Asset Identity & State Verification: Confirm that all shot prompts bind directly to locked workspace asset IDs (876712ba-0f12-44bd-b0bd-dc0861128790, 636cca52-be95-4619-8f27-1eda012e21ba, fc47f758-9e6e-4994-bfd9-08969bc9291e, 8ecc9f3c-3338-4044-b954-4f5b498b029e, 140a20ae-cabe-4997-a827-1b103a498dd2, dcd56d1c-e8cf-4c41-ac14-3a79fb461c02, 2dad23e8-0125-4e82-82b4-374f999f0f49) and verify that existing derivatives (e.g. Reverse View 187b4efe-317a-49a5-b4f0-d2a06d0e35ae and Drawn Sunstone State 26ac4f9e-96b8-4106-a342-8bafd8450c57) are used without duplicate generation.
+Derivative Asset Generation (Stage 2 Hand-off): Submit the 7 pruned pre-planned states in Section ⑦ to the asset pipeline, locking consistent four-view character turnarounds and multi-angle scene sheets.
+Storyboard Table Construction: Sequence Shots 1 through 7 into the execution storyboard table, enforcing vertical 9:16 composition, concrete physical micro-actions, motivated practical camera moves, and pure diegetic SFX (excluding all score/music tracks).
+Cinematic Prompt Drafting & Visual Anchoring: Compose single-shot video prompts integrating @Image reference tags for character, scene, and prop anchors, backed by the mandatory negative prompt core (N-CORE, N-HUMAN, N-ENV, N-PROP).
+Quality & Continuity Enforcement: Conduct final checks against AI generation artifacts, ensuring physically motivated lighting, exact costume and scar continuity, and seamless transitions across all cuts.

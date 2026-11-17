@@ -1,0 +1,143 @@
+Director Production Plan: Episode 5 — "Andhere Ka Dwaar"
+
+*v2, 24 Oct 2026. Built from the approved storyboard `ep5_shotlist_v2.json` (Nin's round-1 notes + tightened micro-drama pacing): 76 shots · 304s (5m04s) · 13 video tracks · Seedance 2.5, 480p, native 9:16. Replaces v1 (71 shots / 403s / 18 tracks), backed up in `ep5/_bak_pre_tracks_v2/`. Shot numbers below are v2 numbers.*
+
+① Theme & Narrative Core
+The episode is the night the walls fail from the inside. Kaalini doesn't break Suryagarh's protection, she walks through it: the ward-lights die in purple smoke as she passes, the prayer lamps gutter out, and the throne-room doors blast open for her. Agnivesh, disowned and named ill-omened, is the only one who stands in her way, and in each scene he's held back a step too late: by her mockery in the courtyard, by the death of the Priestess Leader in the sanctum, by the spear-wall in the corridor. The core is a stripped prince protecting the people who rejected him. Kaalini's taunts land because they're true (his father erased his name), and he answers with action, not speeches.
+
+**Natural Acting Direction**
+
+Agnivesh: still and contained. His power shows in what he holds back: he doesn't flinch when Kaalini strokes his cheek (28), and his line over the Priestess Leader is quiet (51). He lets go only on the last threat about his father (69).
+Kaalini: never shouts. Her cruelty is in her ease: she walks, smiles and almost whispers. Her only raised moments are the triumphant lines in the corridor (67, 70), and even those stay under a scream.
+Devika: real fear when the spears swing to her (25), then she stands firm beside him. In the sanctum she's quick and quiet, an organiser rather than a fighter (44).
+Temple Priestess Leader: shaking but loud in prayer (37); her last line breaks but doesn't collapse (45).
+Royal Guard 3: a messenger out of breath, not a soldier giving a speech (3).
+Badrinath: a silent figure by a pillar who doesn't react (56). No look to camera, no guilty acting.
+Dialogue: all 26 script lines (30 Devanagari segments) verbatim, at or under 2.8 words per second.
+② Visual Style & Framing Tone (Native 9:16 Vertical)
+Live-action photorealistic historical Indian epic at night, period practical light only: torches, lamps, ward-lights, the oculus moonbeam and the gold flare of the mark. The grade moves from cold sea-blue (harbour) through gold dying to purple-smoked blue-black (courtyard) and amber and copper going dark (sanctum) to torch pools against moonlight, with violet creeping in (corridor). The cracked dome stays a faint shimmer in every exterior sky.
+
+**Smoke and light rules (Nin's style, applied to every prompt)**
+
+Shadow Hounds trail purple smoke, leak it when hurt, and dissolve into it when killed (the impaled hound dissolves at 5).
+Demon smoke is purple, or purple-and-black: Kaalini's entrances (8, 35), the dying ward-lights (10, 15), the smoke across the stones (18), the smoke under the throne-room doors and out of the broken doorway (68, 71–74).
+Non-magical props give black smoke only: the prayer lamps gutter out in thin black smoke (36).
+The blood seal is black with a blood-red glow pulsing inside it (63).
+The courtyard derivative is "Ward-Lights Dark (Purple Smoke)".
+**Cinematography Direction**
+
+Native 9:16: at most two people side by side; groups (elites, priestesses, guards) are always staged in depth, never in a line across the frame. Every shot line in the prompts carries a "Sides:" note for the top, middle and bottom thirds.
+Faces in the centre third. Spears and dagger lines run vertically or diagonally into depth.
+No slow sideways pans. Drama moves are slow push-ins, drifts, arcs, cranes and track-backs.
+FAST beats, Marvel-style (15: 11, 25, 26, 32, 40, 42, 44, 46, 47, 51, 53, 58, 61, 67, 71): speed ramps, snap push-ins, fast track-outs and bullet time, exactly as written. The big ones: the leap with the extreme slow-motion sweep past the elites' faces (26), the mark flare (32), the bullet-time flight of the Serpent Dagger with the camera racing backward ahead of its tip (47), the slow-motion spark beat on the spear-wall (61), and the doors blast (71).
+Static holds (9: 10, 14, 21, 45, 52, 60, 64, 68, 75) for the ward-light dying, Devika's question, his answer to Kaalini, the Leader's defiance, Kaalini's quiet threat, the spear-wall locking, the chant, the smoke under the doors and the guards' fear.
+Screen line: Kaalini and her forces screen-left facing right; Agnivesh and Devika screen-right facing left, the same as Ep 4. The sanctum reverse and the corridor reverse are chosen so this holds.
+Lenses: 24–32mm wides with deep focus, 40–50mm mediums, 75–85mm close-ups, 100mm for the inserts (the elite's grip, the smoke at his boots, the wrist, the dagger, the seal, the mask).
+③ Narrative Structure & Pacing
+**Paragraph Division Table**
+
+
+
+
+Scene	Script heading	Shots	Duration	Beat
+1	EXT. HARBOR BARRACKS GATE - NIGHT	1–7 (7)	31s	Ep 4 aftermath; the hound dissolves; Guard 3's news; the run to the Rajmahal
+2	EXT. SURYAGARH RAJMAHAL - COURTYARD - NIGHT	8–33 (26)	105s	Kaalini enters; the ward-lights die; the standoff and the taunts; the leap; the mark flares; escape toward the temple
+3	INT. SURYA MANDIR - GARBHAGRIHA - NIGHT	34–55 (22)	87s	The lamps die; Agnivesh's challenge; Devika's evacuation; the Priestess Leader is killed; the elites move on
+4	INT. RAJMAHAL - GRAND CORRIDOR - NIGHT	56–76 (21)	81s	Kaalini passes silent Badrinath; the spear-wall; the blood seal; the doors blast; the Shadow Warriors
+Total		1–76 (76)	304s	
+**Video Tracks** (13; each ≤30s and ≤30 references, cut only inside one script scene; prompts in `ep5_track_prompts_v2/`)
+
+
+
+
+Track	Shots	Duration	Location card(s)	Content
+1	1–3	16s	Reverse From the Gate Toward the Shore, Harbor Barracks Gate	Ep 4 aftermath, the glow fades under the sleeve; Guard 3's news
+2	4–7	15s	Reverse From the Gate Toward the Shore, Harbor Barracks Gate	The hound slides off the spear and dissolves into purple smoke; "mere saath chalo"; the run
+3	8–15	25s	Suryagarh Rajdurg Gate, Ward-Lights Dark (Purple Smoke)	Kaalini steps out of purple smoke; the elites march in; the ward-lights die; Agnivesh cuts in (FAST 1); Devika's question
+4	16–20	26s	Ward-Lights Dark (Purple Smoke)	Kaalini's taunts to Devika; the smoke at his boots; the traitor line; "Raasta chhodo"
+5	21–26	28s	Ward-Lights Dark (Purple Smoke)	His defiance; "tumhare pita"; the spears swing to Devika (FAST 2); his leap with the slow-motion sweep (FAST 3)
+6	27–33	26s	Ward-Lights Dark (Purple Smoke), East View to the Surya Mandir Steps	"Thoda dhyan rakhna"; the cheek; Kaalini walks to the temple; orders; the mark flares (FAST 4); the escape
+7	34–39	24s	Inner Sanctum, Reverse From the Altar Toward the Entrance	The sanctum ritual; Kaalini through purple smoke; the lamps die in thin black smoke; the prayer; her taunts
+8	40–45	23s	Reverse From the Altar Toward the Entrance, Rear Doorway Behind the Altar	Agnivesh levels the spear (FAST 5); "nirdosh"; the elites at his back (FAST 6); Devika leads the priestesses out (FAST 7); the Leader's defiance
+9	46–51	20s	Reverse From the Altar Toward the Entrance, Inner Sanctum, Rear Doorway Behind the Altar	The draw and throw (FAST 8); bullet-time dagger (FAST 9); the Leader falls; he kneels; his line (FAST 10)
+10	52–55	20s	Reverse From the Altar Toward the Entrance, Inner Sanctum	"Abhi toh shuruaat"; the dagger slithers back (FAST 11); the order; the elites leave
+11	56–64	29s	Reverse Toward the Courtyard Arch, Grand Corridor	Kaalini passes silent Badrinath; the striding reveal; Agnivesh runs in (FAST 12); the spear-wall; the strikes (FAST 13); Devika; the blood seal; the chant
+12	65–69	29s	Reverse Toward the Courtyard Arch, Grand Corridor	Devika's shout; Agnivesh's shout; "Timiraksha..." (FAST 14); smoke under the doors; his threat
+13	70–76	23s	Grand Corridor, Throne-Room Doors Blasted Open	"Maharaj Someshwar..."; the doors blast (FAST 15); the Shadow Warriors form; the armour change; the guards' fear; he runs at her, HARD CUT
+Total	1–76	304s		
+**Emotional Curve:** spent relief (1–2) → alarm (3) → the hound gone to smoke, the run (4–7) → dread (8–10) → defiance under humiliation (11–31) → the release of the flare (32–33) → sacred calm broken (34–39) → trap (40–45) → grief (46–51) → cold resolve (52–55) → frustration and the race against the ritual (56–69) → shock and horror (70–75) → defiance as the cut lands mid-run (76).
+
+**Key Visual Turning Points**
+
+Shot 1: the gold glow fades under the sleeve (Ep 4 handover).
+Shot 5: the dead hound dissolves into purple smoke, its violet eyes the last to fade.
+Shot 8: Kaalini steps out of purple smoke into the gold ward-light.
+Shots 10 and 15: the ward-lights die one by one, then all at once, in thin purple smoke.
+Shot 26: the leap and the slow-motion sweep a finger's width past the elites' faces.
+Shot 28: Kaalini strokes his cheek and he doesn't move.
+Shot 32: the mark flares (FAST).
+Shot 36: the prayer lamps gutter out in thin black smoke.
+Shots 46–49: the throw, the bullet-time dagger, the fall, the rolling lamp.
+Shot 63: the black seal with its blood-red glow spreads across the marble.
+Shot 71: the throne-room doors blast (FAST).
+Shots 72–74: the masked Shadow Warriors form from the smoke; the elites' armour turns to shadow.
+**Pacing Direction:** micro-drama pace. Dialogue shots get the line at a brisk read plus a beat; silent and reaction shots 2–3s; establishing wides 3–4s; FAST beats 2–3s (4s only for the leap at 26). Let the courtyard breathe through the dying light, not through longer shots. In the sanctum, slow the killing: the bullet-time dagger, the fall, the camera following her down, the rolling lamp. The corridor tightens, and the last track runs blast → mask → warriors → armour change → fear → run with one line at the top.
+
+④ Scene-by-Scene Emotion & Camera Intent
+**Scene 1 — Harbor Barracks Gate (shots 1–7 / 31s)**
+
+Emotional Target: Spent relief that turns to alarm.
+Atmosphere: Sea mist, ash still settling, torches, the cracked dome faint above.
+Camera Intent: Start low beside the planted spear so we pick up Ep 4's last image (1), the gateway (2) and Guard 3's report (3). The hound slides off the shaft (4) and dissolves into purple smoke as the camera cranes up with it (5); a slow arc around the pair for "mere saath chalo" (6); a high wide of them running up the shore road (7).
+Spatial Staging: Agnivesh outside the gate (Reverse From the Gate Toward the Shore), Devika and the sentries in the gateway, Guard 3 arriving along the shore road in depth.
+**Scene 2 — Rajmahal Courtyard (shots 8–33 / 105s)**
+
+Emotional Target: Dread, then defiance under humiliation.
+Atmosphere: Gold ward-light choking to purple smoke; cold moonlight; smoke low on the stones.
+Camera Intent: Kaalini's intro close-up as she steps out of the smoke (8), a high wide of the elites marching in (9), the first ward-light dying (10). Agnivesh's run in (11, FAST) and the elite's grip insert (12). The standoff plays in singles and two-shots with the elites always in depth behind Kaalini; her taunts are held on arcs and push-ins; the extreme wide that cranes down to a medium for "Raasta chhodo" (20). The spears swing to Devika (25) and his leap (26). Kaalini leaves for the temple (29, East View to the Surya Mandir Steps); the mark flares (32) and they slip away (33).
+Spatial Staging: Kaalini screen-left with the elites stacked behind her; Agnivesh and Devika screen-right. The temple steps lie east. The courtyard is "Suryagarh Rajdurg Gate" until the last lights die (8–14), then "Ward-Lights Dark (Purple Smoke)" (15–33, except 29).
+**Scene 3 — Surya Mandir Garbhagriha (Inner Sanctum) (shots 34–55 / 87s)**
+
+Emotional Target: Sacred calm broken, then grief.
+Atmosphere: Amber lamps guttering out in thin black smoke, incense, the oculus moonbeam, the copper glow of the mandala.
+Camera Intent: From the entrance (Inner Sanctum) for the ritual; Kaalini enters through purple smoke on the reverse (35, Reverse From the Altar Toward the Entrance); the reverse for Agnivesh's entrance and the trap (40–43); the rear doorway (Rear Doorway Behind the Altar) for the escape and the death (44–45, 48–51). The killing is restrained: a thin dark line, no spray, and the camera follows her down and stays on the rolling lamp.
+Spatial Staging: Priestesses in a ring in depth around the altar; Kaalini mid-sanctum; Agnivesh in the side arch, screen-right; the elites in the main entrance behind him.
+**Scene 4 — Grand Corridor (shots 56–76 / 81s)**
+
+Emotional Target: Frustration and urgency, then horror.
+Atmosphere: Torch pools and moonlight; the black seal with its blood-red glow; purple-and-black smoke from the throne room.
+Camera Intent: The reverse toward the arch (Reverse Toward the Courtyard Arch) for every entrance (Kaalini past Badrinath 56, Agnivesh 58, Devika 62, 65), and the base (Grand Corridor) toward the doors for the striding reveal (57), the spear-wall (60–61), the seal (63–64) and the ritual. The blast (71) is the only shake; then the mask surfacing (72), the warriors stepping out (73) and the armour change (74, Shadow-Fused Armour) on the broken doorway (Throne-Room Doors Blasted Open). Badrinath is visible only in shot 56, as background: no reaction shot and no confrontation.
+Spatial Staging: Kaalini mid-corridor; the spear-wall between her and Agnivesh; Royal Guard 2 and the palace guards by the doors in depth; Devika at the arch, then behind a pillar (75).
+**Lighting Direction:** only practical, motivated sources. Harbour: moon and torches. Courtyard: gold ward-lights that die in thin purple smoke (they never relight), then moonlight. Sanctum: brass lamp towers and the oculus; the lamps gutter out in thin black smoke. Corridor: torch pools and high windows; the seal's blood-red glow (63–64); from 68, violet light and purple-and-black smoke from under the doors, then from the broken doorway. The bright exception is the mark's gold flare (32–33).
+
+⑤ Sound Direction
+Harbour: waves, torches, ragged breath; a long rising hiss as the hound dissolves. Courtyard: marching iron, a hiss as each ward-light dies, then near-silence for the taunts. Sanctum: a chanting hum that chokes off when the lamps die; a slowed, stretched hiss of steel and a heartbeat in the bullet time; the rolling lamp is the loudest sound in the scene. Corridor: echoing footsteps, iron on iron, the seal's wet spreading hiss under Kaalini's chant, the boom of the doors, blades sliding out of forearms.
+Dialogue is Hindi in Devanagari, lip-synced, with only the named speaker talking. No music cue is written into the prompts; the score is the editor's.
+⑥ Transitions & Visual Continuity
+In from Ep 4: the mark glowing, the hound impaled on the planted spear and trailing purple smoke, Devika and the sentries in the gateway (track 1 start state).
+Hard cuts only. Scene changes go harbour → courtyard (lights burning) → sanctum → corridor; each track's start state is the previous track's end.
+Agnivesh: Scorched Cuff + Throat Nick throughout, the Glowing Mark at 1 and 32–33; no scabbard; the Iron Spear from 5 (laid down at 50, back in hand from the corridor).
+Devika: dagger always sheathed; compass and map at her belt.
+Kaalini: the Serpent Dagger at her belt except between the draw (46) and its return (53).
+Demon Elites: two heads on one thick neck, hooked barbed spears; Shadow-Fused Armour from 74.
+Out to Ep 6: the doors are down, purple-and-black smoke and violet light pour out, the Shadow Warriors and the shadow-fused elites are behind Kaalini at the doorway, Agnivesh is running at her with the spear, Devika is behind a pillar and a guard's spear lies on the floor. Hard cut to black.
+⑦ Derivative Assets
+
+
+
+Asset Name	Derivative State	Narrative Appearance
+Harbor Barracks Gate	Reverse From the Gate Toward the Shore (Ep 4 card, reused)	The handover and the dissolve; shots 1, 4, 5
+Suryagarh Rajdurg Gate	Ward-Lights Dark (Purple Smoke)	Every ward-light dead in purple smoke; shots 15–33 (except 29), and Ep 6
+Suryagarh Rajdurg Gate	East View to the Surya Mandir Steps	Kaalini walks to the temple steps; shot 29
+Inner Sanctum	Reverse From the Altar Toward the Entrance	Kaalini's entrance, Agnivesh's entrance, the trap, the throw, the exit; shots 35, 40–43, 46, 52, 55
+Inner Sanctum	Rear Doorway Behind the Altar	The escape, the defiance, the death; shots 44–45, 48–51
+Grand Corridor	Reverse Toward the Courtyard Arch	Every entrance into the corridor; shots 56, 58, 62, 65; Ep 6
+Grand Corridor	Throne-Room Doors Blasted Open	After the blast; shots 71–74, 76; Ep 6
+Demon Elites	Shadow-Fused Armour	The elites' armour turns to shadow; shot 74; all of Ep 6
+The Ep 5 derivative cards get the corrected images in the pending Ep 5 derivative fix; tag them after that.
+
+**Existing cards reused:** Scorched Cuff + Throat Nick, Scorched Cuff Glowing Mark, Devika's Dagger, Iron Spear, Royal Sentry, Royal Guard 2 (livery for the palace guards), Royal Guard 3, Shadow Hounds, Temple Priestesses, Temple Priestess Leader, Sacred Scroll, Prayer Lamp, Serpent Dagger, Demon Elites, Shadow Warriors, Rajguru Badrinath.
+
+**Handled in video (no card):** the hound dissolving, the lamps guttering out in thin black smoke, the black blood seal and its blood-red glow, the smoke under the doors, the blast itself, the dagger's serpent return, the Priestess Leader's wound.
+
+**Video Workspace:** per Nin, the assets are not tagged or attached for this episode; someone else will tag them. The tag order for each clip is in `ep5_tracks_setup_v2.txt`.

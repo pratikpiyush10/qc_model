@@ -1,0 +1,329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kuku.local/continuity_dataset/schema.json",
+  "title": "Video continuity training record",
+  "description": "One training record for a model that maintains visual continuity across AI-generated video tracks (prompts and QC). Unknown facts MUST be null, never invented.",
+  "type": "object",
+  "required": ["id", "record_type", "source_paths"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique id, e.g. uw_cs_e10_t09n_end"
+    },
+    "record_type": {
+      "type": "string",
+      "enum": ["continuity_state", "prompt_pair", "qc_example", "rule"]
+    },
+    "show": {
+      "type": ["string", "null"],
+      "description": "Show title. Null for show-agnostic rules or blank templates."
+    },
+    "show_id": {
+      "type": ["string", "null"],
+      "description": "Production / project identifier if known."
+    },
+    "episode": {
+      "type": ["string", "null"],
+      "description": "Episode label, e.g. '10' or 'IOC1'."
+    },
+    "track": {
+      "type": ["string", "null"],
+      "description": "Track / card / clip label, e.g. 'T09' or 'C10'."
+    },
+    "version": {
+      "type": ["string", "null"],
+      "description": "Prompt or render version, e.g. 'T09N v6' or 'v3'."
+    },
+    "source_paths": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "Workspace paths this record was extracted from. Do not invent facts beyond these files."
+    },
+    "verification": {
+      "type": ["string", "null"],
+      "enum": [
+        "verified_from_render",
+        "from_prompt_unverified",
+        "observed_partial",
+        "planned_not_selected",
+        "rejected",
+        "prompt_preflight",
+        "example_template",
+        null
+      ],
+      "description": "How reliable the facts are. Use from_prompt_unverified when the source itself says the render was not checked."
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "is_example_template": {
+      "type": "boolean",
+      "default": false,
+      "description": "True only on clearly labeled template records for adding a new show."
+    },
+    "continuity_state": {
+      "description": "Required when record_type is continuity_state.",
+      "$ref": "#/$defs/continuityState"
+    },
+    "prompt_pair": {
+      "description": "Required when record_type is prompt_pair.",
+      "$ref": "#/$defs/promptPair"
+    },
+    "qc_example": {
+      "description": "Required when record_type is qc_example.",
+      "$ref": "#/$defs/qcExample"
+    },
+    "rule": {
+      "description": "Required when record_type is rule.",
+      "$ref": "#/$defs/rule"
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "record_type": { "const": "continuity_state" } } },
+      "then": { "required": ["continuity_state"] }
+    },
+    {
+      "if": { "properties": { "record_type": { "const": "prompt_pair" } } },
+      "then": { "required": ["prompt_pair"] }
+    },
+    {
+      "if": { "properties": { "record_type": { "const": "qc_example" } } },
+      "then": { "required": ["qc_example"] }
+    },
+    {
+      "if": { "properties": { "record_type": { "const": "rule" } } },
+      "then": { "required": ["rule"] }
+    }
+  ],
+  "$defs": {
+    "characterState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "on_screen": { "type": ["boolean", "null"] },
+        "position": { "type": ["string", "null"], "description": "Screen side, depth, and landmark (e.g. screen-left mid-hall at Sun Pillar)." },
+        "facing": { "type": ["string", "null"] },
+        "gaze": { "type": ["string", "null"] },
+        "posture": { "type": ["string", "null"] },
+        "movement": { "type": ["string", "null"] },
+        "costume": { "type": ["string", "null"] },
+        "props": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Props held or worn by this character in this state."
+        },
+        "injuries": { "type": ["string", "null"] },
+        "state": { "type": ["string", "null"], "description": "Emotional or physical condition, glow, chains, etc." }
+      }
+    },
+    "propState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "position": { "type": ["string", "null"] },
+        "condition": { "type": ["string", "null"] },
+        "held_by": { "type": ["string", "null"] }
+      }
+    },
+    "locationState": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "view": { "type": ["string", "null"], "description": "e.g. FRONT (gate looking at throne), REVERSE, or null." },
+        "plate_asset": { "type": ["string", "null"], "description": "Reference asset that must be used as the background plate." },
+        "condition": { "type": ["string", "null"] },
+        "damage": { "type": ["string", "null"] },
+        "layout_notes": { "type": ["string", "null"] }
+      }
+    },
+    "continuityState": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "moment": {
+          "type": ["string", "null"],
+          "description": "When this state applies: end_of_track, start_of_track, mid_track, series_baseline."
+        },
+        "location": { "$ref": "#/$defs/locationState" },
+        "lighting": { "type": ["string", "null"] },
+        "time_of_day": { "type": ["string", "null"] },
+        "audio": { "type": ["string", "null"] },
+        "camera": { "type": ["string", "null"] },
+        "characters": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/characterState" }
+        },
+        "props": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/propState" }
+        },
+        "environment_damage": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Must-stay damage sentences that carry forward."
+        },
+        "locks_in_force": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "open_questions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "end_of_track_state": {
+          "type": ["string", "null"],
+          "description": "Free-text summary of the handoff state into the next track."
+        }
+      }
+    },
+    "scriptBeat": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": { "type": ["string", "null"] },
+        "duration_s": { "type": ["number", "null"] },
+        "shot_count": { "type": ["integer", "null"] },
+        "dialogue_verbatim": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Dialogue copied byte-for-byte from the source. Empty if unknown or none."
+        },
+        "beats": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "assetRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "role": { "type": ["string", "null"], "description": "character | location | prop | lighting | unused" },
+        "chip": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "promptPair": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "previous_track": { "type": ["string", "null"] },
+            "previous_end_state": { "$ref": "#/$defs/continuityState" },
+            "script_beat": { "$ref": "#/$defs/scriptBeat" },
+            "assets": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/assetRef" }
+            },
+            "locks": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "change_request": {
+              "type": ["string", "null"],
+              "description": "What the director asked to change, if this pair is a fix pass."
+            }
+          }
+        },
+        "output": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "prompt_text": {
+              "type": ["string", "null"],
+              "description": "Continuity-locked prompt text or verbatim excerpt actually present in the sources. Null if only structured locks were extracted."
+            },
+            "key_locks_applied": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "shot_outline": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "negatives": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "notes": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "qcError": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category", "description"],
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "One of: position, facing, direction, location_plate, damage, costume, identity_duplicate, missing_character, prop_state, eye_glow, lighting, roof, dialogue, lip_sync, speaker_mouth, audio_music, shot_structure, camera, anatomy, eyeline, time_of_day, inventory, other."
+        },
+        "severity": { "type": ["string", "null"] },
+        "timestamp": { "type": ["string", "null"] },
+        "description": { "type": "string" },
+        "fix": { "type": ["string", "null"] }
+      }
+    },
+    "qcExample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict"],
+      "properties": {
+        "prompt_summary": { "type": ["string", "null"] },
+        "prompt_path": { "type": ["string", "null"] },
+        "render_path": { "type": ["string", "null"] },
+        "observed_video": { "type": ["string", "null"] },
+        "passes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "errors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/qcError" }
+        },
+        "verdict": {
+          "type": "string",
+          "enum": ["pass", "fail", "needs_another_pass", "partial_fix", "rejected", "preflight_issues"]
+        },
+        "fix": { "type": ["string", "null"] }
+      }
+    },
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule_text", "category"],
+      "properties": {
+        "rule_text": { "type": "string" },
+        "category": {
+          "type": "string",
+          "description": "dialogue | shot_structure | visible_text | position | location_plate | direction | damage | eye_glow | prompt_editing | qc_process | costume | identity | lighting | audio | props | posture | chips | view | speaker | eyeline | realism | negatives | inventory"
+        },
+        "applies_to": {
+          "type": ["string", "null"],
+          "description": "Usually 'all_shows'. Narrower only if the source rule is show-specific and kept in uw_continuity.jsonl."
+        },
+        "rationale": { "type": ["string", "null"] },
+        "good_example": { "type": ["string", "null"] },
+        "bad_example": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

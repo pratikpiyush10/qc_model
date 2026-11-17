@@ -1,0 +1,324 @@
+Director Production Plan: Episode 3 — Mita Hua Rajkumar
+
+① Theme & Narrative Core
+Core Theme: A name can be erased from stone by decree, but identity and blood cannot be unmade. Power that rules by blame and spectacle hides the real traitor in plain sight.
+
+Emotional Spine:
+
+Tier 1 (Seized Without Cause): Picking up the instant after Ep 2's freeze, the torches flare back, a temple bell summons, and the guards who were about to fight beside Ranvijay sheathe their swords and seize Agnivesh. He is confused, not afraid.
+Tier 2 (Public Erasure): Before the whole court in the Surya Mandir, Badrinath blames the failing Raksha-Dwaar on Agnivesh's birth. Someshwar silences Devika, strips Agnivesh of title, lineage and home, and with his own hand smears ash over his son's gilded name on the Pillar of the Sun Kings. Agnivesh answers with quiet defiance; the mark glows faintly beneath his sleeve.
+Tier 3 (Cosmic Answer): A single drop of blood from the reopened throat-cut hits the temple floor; the earth rumbles and the golden Raksha-Kavach cracks from the north with violet thunder. Badrinath blames Agnivesh's blood; Devika's spinning compass points to treachery from inside the palace; and alone in the frightened court, Badrinath smiles.
+Exit Takeaway & Expression Strategy: Outrage at a public injustice, sharpened by the audience knowing more than the court. The cliffhanger is the villain's half-smile, not the explosion: the hard cut lands on Badrinath's face.
+
+Natural Acting Direction (all scenes)
+Grounded and real: Every performance is understated and believable, played as if no camera were there. No theatrical poses, no stage gestures, no mugging to the lens.
+Eyes and micro-expressions over big gestures:
+Emotion reads through the eyes, breath, the jaw and small shifts of weight.
+Examples: Agnivesh's eyes travelling the crowd, a tightening jaw, a fist closing at his side, Devika's held breath, a courtier who stops clapping.
+Dialogue:
+Spoken at a natural pace, verbatim, never declaimed, even in the court.
+Pauses come from thought, not from the camera. Lines land on the listener's face as often as on the speaker's.
+Where intensity rises:
+Only for the antagonists and for extreme emotion: Badrinath's accusations, Someshwar's fury, Ranvijay's gloating, Devika's defiance on the steps.
+Even then it stays believable. Someshwar is a cold king who believes he is protecting his kingdom, not a ranting tyrant. Badrinath is quiet menace, never a cackling villain; his half-smile is barely there.
+Stillness as power: Agnivesh is held by two guards for most of the episode. He never struggles. The less he moves, the more he commands; the clenched fist is the only physical release.
+Listening: Every character is alive when not speaking. The courtiers are a real crowd: some enjoy the spectacle, some are uneasy, some look away. The priests stay formal and still. The guards are disciplined and impersonal.
+② Visual Style & Framing Tone (Native 9:16 Vertical)
+Vertical Composition Rules:
+
+Native 9:16: Every shot is composed for 9:16 vertical, with all characters fully inside frame. Every camera note ends with "9:16 vertical composition, all characters fully inside frame".
+Two side by side at most: Groups of three or more are stacked in depth (foreground, midground, background), never in a horizontal line. Agnivesh with a guard at each arm is the only three-across exception, kept tight and half a step deep. On the temple steps (42, 48) the court is layered by group: courtiers nearest camera; Someshwar and Badrinath a pair, middle-left, with Ranvijay behind them; Agnivesh between the guards, middle-right and higher; Devika a step behind him.
+Centre third: Faces, eyelines and key hands (the brush on the name, the clenched fist, the falling drop, the compass) stay in the centre vertical third.
+Using height:
+The pillar: a crane down the Pillar of the Sun Kings from its mandala to the gilded name (12), and a second crane down it following the brush onto the name as the ash covers it (28); low angles on the throne platform so the court looks up at power (15, 16, 18, 29).
+The platform, both ways: a low angle from just behind Agnivesh up the platform steps to Someshwar on the throne (22); high angles from the platform down onto the floor (14, 21).
+The overhead: a top-down overhead of Agnivesh isolated on the bare floor between the courtier rows as the decree lands (25).
+The fall and rise: a floor-level static on the falling drop (38), then a fast tilt and crane up the pillar to the open roof (39).
+The sky: a worm's-eye tilt from the empty steps up to the violet thunder (41), low angles up the temple steps to the cracking dome (42, 43, 47) and a crane over the court to the crack (48).
+The dome as a ceiling: the Raksha-Kavach encloses the city. Its shell arches over the top of the frame, close above the terrace and in front of the shikhara and palace spires (seen through its hexagons), and its walls curve down to the ground at the left and right edges; the mountains, the sea and the moon sit outside it. In 40–49 the court is always inside the dome, never in front of a dome standing behind the city.
+Doorways as frames: the chamber door for Royal Guard 3's entrance (4) and the exit (9); the great temple doors in the entry master (11) and the reverse (14, 35).
+Composition Style & Narrative Rationale:
+
+Axis of Power: In the temple, the camera axis runs from the great doors to the Sun Throne. The pillar stands on that axis between Agnivesh and the throne: the lineage literally stands between the son and the father.
+Up vs Down: The court is shot from below, Agnivesh from level or above while he is judged (overhead at 25), and from below once he speaks his defiance (34).
+Screen Line (continues Ep 1 and Ep 2): Ranvijay, Someshwar and Badrinath are screen-left, facing right. Agnivesh and Devika are screen-right, facing left. In the chamber, the door is screen-left (as in Ep 2), so the exit moves leftward past Ranvijay.
+Eyelines: The platform group looks screen-right and down (16, 18, 29, 32); Agnivesh at the pillar looks screen-left and up (12, 19, 23, 34, 36); Ranvijay at the platform foot faces screen-right (30, 31); Devika faces screen-left (20, 47); Guard 1 faces screen-right to Agnivesh (8); Someshwar walks screen-right down to the pillar (27); Badrinath points screen-right (18, 43). People off-screen keep their side: Badrinath off-screen left (19), Someshwar off-screen left (23, 34, 36), Agnivesh off-screen right (18, 31, 43).
+The two reverses (Nin, 23 Oct): 14 and 35 (Reverse View Toward the Temple Doors) are true 180° reverses, so the screen sides flip for those two shots only. At 14 Ranvijay arrives near, bottom-right, facing camera, and Devika stops screen-left of the pillar, facing screen-right. At 35 Someshwar is near, bottom-right, back to camera, his right arm flung to screen-left; Agnivesh faces screen-right toward him, Guard 2 on his screen-left arm and Guard 1 on his screen-right arm. The next shots (15, 36) are back on the forward axis, with the normal sides.
+Three-Layer Spatial Separation:
+
+Foreground: Physical barriers and props: the relic's rings, the platform's edge, the scroll, Someshwar's raised hand, Badrinath's pointing arm, the guards' gripping hands.
+Midground: The principals locked in judgement.
+Background: The lines of priests, the courtiers along the walls, the pillar's gilded names, the open doors, the dome. Crowds always sit here, stacked in depth.
+Cinematography Direction
+Camera Movement (mostly motivated, flowing moves):
+
+Flowing (44 of 49 shots): Smooth movement, always motivated by a character's move, a look or a reveal: slow track-ins and track-outs, arcs, tilts, cranes and one rack focus. No sideways pans.
+Push-in limit: Never more than two push-ins (push-in, track-in or snap push-in) in a row anywhere in the episode; the generator checks this. In the temple, reaction cutaways, track-outs, arcs, cranes and the overhead break up the push-ins (17, 19, 22, 25, 28, 29, 34, 36, 37).
+Fast beats (exactly four in the episode):
+The guards sheathe and seize Agnivesh (6, snap push-in).
+Badrinath swings round and points: "...kul-kalank Agnivesh hai!" (18, snap push-in that settles for the line).
+The rumble: a fast tilt and crane up from the trembling floor to the open roof (39).
+The court bursts out onto the temple steps under the cracking dome (42, fast track back).
+Static hold (one, for emphasis): the single drop of blood falling in slow motion onto the temple floor (38).
+No whip-pans, no jump cuts, no crash cuts. No two consecutive shots share the same size and angle.
+Shot-Size Variety:
+
+Extreme wides: The citadel and the cracking dome, held a beat (40); the worm's-eye from the empty steps up to the violet thunder (41).
+Wides: The chamber freeze and exit (1, 3, 9), the temple entry and reverse (11, 14, 35), the platform (15), the top-down overhead (25), the descent (27), the rumble (39), the steps (42, 48).
+Full shot: Agnivesh head to toe before the pillar on the crane down (12).
+Medium wides and mediums: Carry the guards and the court exchanges.
+Medium close-ups: For the accusations, the decrees and Agnivesh's answers.
+Close-ups and inserts: The violet symbol (2), the scroll unrolling (24), the brush-to-name crane ending on Agnivesh's reflection (28), the fist and the glow (33), the reopened cut (37), the drop (38), the spinning compass (46) and Badrinath's half-smile (49).
+Over-the-shoulder shots (17, 32, 44) and two-shots in depth (7, 30, 45) keep judge and judged, or the two allies, in the same frame.
+Lens Choices & Depth of Field: full-frame anamorphic; 24-32mm wides deep focus, 40-50mm mediums, 75-85mm close-ups shallow focus; flare only from real light.
+
+Wides at 24–32mm with deep focus so the crowds and lines of priests stacked in depth all read (11, 14, 25, 39, 42, 48).
+Mediums and two-shots at 40–50mm, with moderate depth: the speaker sharp, the background readable but soft.
+Medium close-ups and close-ups at 75–85mm, shallow focus. In the over-the-shoulder shots the near shoulder is soft and the far face sharp.
+Inserts (the drop, the compass) at 100mm macro with a very shallow focal plane; the erasure (28) at 85mm, holding the brush, the name and the reflection in the polished stone.
+Rack focus: from Agnivesh's profile to Devika in a single over-the-shoulder shot, so the exchange of looks plays in one frame (17); from the scroll to Badrinath's face (24); from the gilded name to Agnivesh's eyes (12); from Someshwar's raised hand to Devika (21).
+Look: Photorealistic live-action, natural skin texture, real fabric and metal; a subtle anamorphic flare only from real light sources (lamp flames, fire bowls, the moon). No CGI look, no plastic skin.
+③ Narrative Structure & Pacing (49 Shots / 305 Seconds)
+Narrative Model: Full narrative arc for a vertical microdrama. 49 shots, 305 seconds, averaging about 6.2 seconds per shot. Dialogue is never rushed and never trimmed.
+
+Paragraph Division Table:
+
+
+
+
+No.	Sequence Name	Scene	Shots	Duration	Core Event	Emotional Intensity	Tempo
+P1	The Summons	Sc 1	1–10	52s	The torches flare back; the temple bell; Royal Guard 3's whisper; the guards sheathe and seize Agnivesh; the order; he is marched out; Ranvijay alone with the trembling sword	60%	Suspended, then abrupt
+P2	Darbar of Judgement	Sc 2	11–26	108s	Agnivesh before the pillar; Badrinath blames his birth; Devika is silenced; the decree strips him of title and home; Someshwar takes the brush	80%	Formal, tightening
+P3	The Erasure	Sc 2	27–39	85s	The name is smeared out as Badrinath watches coldly; Ranvijay gloats; exile to the outer archive; Agnivesh's defiance; the cut reopens; the drop falls; the earth rumbles	92%	Slow, silent, then a jolt
+P4	The Shield Breaks	Sc 3	40–49	60s	The Raksha-Kavach cracks; the court on the steps; Badrinath blames the blood; the compass spins; Devika names the traitor within; Badrinath's half-smile, HARD CUT	98%	Explosive, then a cold stop
+Total	Full Episode	3 scenes	49	305s			
+Video Tracks (13; each ≤30s, cut at scene or beat boundaries):
+
+
+
+
+Track	Shots	Duration	Scene	Beat
+1	1–5	25s	Archive Ward Chamber	Freeze, torches flare, bell, Guard 3's whisper
+2	6–10	27s	Archive Ward Chamber	Seizure, the order, the exit, Ranvijay alone
+3	11–14	25s	High Sun Temple	Entry, pillar, Devika and Ranvijay take their places
+4	15–18	28s	High Sun Temple	Badrinath's address, the look, the accusation
+5	19–22	29s	High Sun Temple	Agnivesh's question, Devika's plea, silenced
+6	23–26	26s	High Sun Temple	"Pitashri!", the decree, the brush
+7	27–30	25s	High Sun Temple	The descent, the erasure, Badrinath watching, the applause
+8	31–33	23s	High Sun Temple	The gloat, the exile decree, the fist
+9	34–37	27s	High Sun Temple	The arc: defiance, "Vansh ka naam...", the disowning, the head lowers
+10	38–39	10s	High Sun Temple	The drop, the rumble
+11	40–42	19s	Suryagarh Citadel	The dome cracks, violet thunder, the court rushes out
+12	43–45	17s	Suryagarh Citadel	Badrinath blames the blood; anger and fear
+13	46–49	24s	Suryagarh Citadel	The compass, Devika's truth, the crack spreads, the half-smile
+Emotional Curve:
+
+It opens suspended in the Ep 2 freeze and drops into a sudden, unexplained arrest (Sc 1).
+It tightens into a formal public trial and a silent, ritual erasure (Sc 2).
+It breaks open into cosmic catastrophe and ends cold on the villain's smile (Sc 3).
+Key Visual Turning Points (No Dialogue Reliance):
+
+The Sheathing: The guards who drew for Ranvijay sheathe their swords and take Agnivesh instead (6).
+The Erasure: The golden brush drags black ash over the gilded name until it disappears, ending on Agnivesh's reflection in the polished stone (28), with Badrinath watching coldly (29).
+The Fist: The jaw tightens, the fist clenches, the glow flickers beneath the sleeve (33).
+The Drop: A single drop of blood falls in slow motion onto the temple floor (38), and the earth answers (39).
+The Crack: The golden dome splits from the north in violet thunder (40–41).
+The Half-Smile: Alone among the frightened court, Badrinath smiles (49), paying off his cold look during the erasure (29). HARD CUT.
+Pacing Direction (beat by beat)
+Principle: Breathe where the story is thinking, accelerate where it is acting. Every accusation gets a beat of reaction before the answer. The four fast beats are the only places the cut rate and camera speed jump, and each is followed by a slower shot so it lands.
+
+Sc 1 (1–10, 52s), suspended, then abrupt:
+
+1 (6s), breathe: Hold the freeze a beat in violet dark, then the torches catch. The audience must recognise Ep 2's last frame.
+2 (4s), reminder: The violet symbol still pulsing. Quiet.
+3 (5s), interruption: The bell. Every head turns. Let the toll ring through the cut.
+4–5 (6s, 4s), suspense: Guard 3's whisper is unheard; hold on Guard 1's face turning grave.
+6 (5s), accelerate: The seizure (fast beat 1).
+7–8 (5s, 6s), confusion, then the order: Agnivesh's confusion is held before the order explains it.
+9–10 (6s, 5s), release: The exit, then a lingering beat on Ranvijay alone with the trembling sword.
+Sc 2 (11–39, 193s), the trial in waves:
+
+11–14 (7s, 6s, 5s, 7s), establish: The march in, the crane down the pillar to his name, his eyes on the crowd, then the reverse toward the doors (sides flipped) as the others take their places. Unhurried; the court is watching.
+15–16 (7s, 8s), ritual: Back on the forward axis: the staff passed to a priest, then Badrinath's grave opening.
+17 (5s), reaction: Agnivesh and Devika exchange a look in one over-the-shoulder shot, the focus racking from him to her under the murmurs.
+18 (8s), accelerate: The accusation (fast beat 2), settling so the line plays in full.
+19–22 (7s, 9s, 5s, 8s), argument: Agnivesh's question (track-out), Devika's plea, the raised hand, then "Maun raho" seen from behind Agnivesh looking up the platform steps. Each line lands on the listener.
+23 (7s), hurt: "Pitashri!" Controlled, not shouted.
+24–25 (5s, 8s), the decree: The scroll unrolls; the sentence lands on Agnivesh, seen top-down, alone on the floor between the courtier rows, Badrinath's voice from off-screen.
+26–27 (6s, 7s), slow ceremony: Someshwar rises, takes the brush, walks down the steps. The court falls silent; no music push.
+28 (9s), silence: The erasure, brush to name to reflection, in one unbroken crane. Give it the full time.
+29 (4s), the plant: Badrinath watches coldly. No smile yet.
+30–31 (5s, 7s), the gloat: Scattered applause, then Ranvijay's line.
+32 (10s), judgement: The exile decree, held in one over-the-shoulder shot.
+33 (6s), the tell: The jaw, the fist, the glow. Silent.
+34–37 (10s, 5s, 7s, 5s), one slow arc: Agnivesh's defiance, low and slow (a priest takes the brush from Someshwar off-screen); the arm flung to the doors ("Vansh ka naam..."), the reverse with the sides flipped and Someshwar's hands empty; back on the forward axis, the disowning plays off-screen over Agnivesh as the arc continues; the arc settles close as he lowers his head and the cut opens, fresh blood beading at the nick.
+38 (5s), slowest beat of the episode: The drop falls in slow motion. Hold.
+39 (5s), jolt: The rumble (fast beat 3).
+Sc 3 (40–49, 60s), catastrophe, then a cold stop:
+
+40 (8s), awe: The crack splits the dome that encloses the whole city. Hold the extreme wide a beat longer so the scale registers.
+41 (5s), dread: From the empty steps, the camera tilts up to violet thunder forking across the crack.
+42 (6s), accelerate: The court bursts onto the steps (fast beat 4).
+43–44 (7s, 5s), blame: Badrinath's accusation, landing on Agnivesh.
+45–46 (5s, 4s), fear and truth: Someshwar's anger and Ranvijay's step back, then the spinning compass.
+47 (10s), defiance: Devika's line in full over the thunder.
+48 (5s), dread: The crack spreads across the shell overhead; the court stares up, the courtiers' hands to their mouths as they pull back.
+49 (5s), the sting: A slow push-in on Badrinath's half-smile, then HARD CUT. No lingering, no fade.
+④ Scene-by-Scene Emotion & Camera Intent
+Scene 1: INT. ARCHIVE WARD CHAMBER - NIGHT (CONTINUOUS) (Shots 1–10 / 52s)
+Emotional Target: Suspended violence collapsing into a cold, bureaucratic arrest.
+Atmosphere Direction: Ritualistic, hushed, unsettled.
+Camera Intent:
+The freeze (1): a slow push-in from the relic's edge on the Ep 2 freeze (first frame Blackout Anomaly View), as every torch flares back (end frame Archive Ward Chamber).
+The symbol (2): a slow crane down to a top-down close-up of the violet northern symbol (Overhead Relic View).
+The bell (3): a slow track-in toward the door from beyond the relic (Reverse View Toward the Door) as every head turns.
+The messenger (4–5): a push-in through the doorway as Royal Guard 3 hurries in, crosses to Guard 1 by the relic and whispers; a low arc around Guard 1, sword still drawn low, as his face turns grave.
+The seizure (6): a snap push-in (fast beat 1) as the guards sheathe and grip Agnivesh's arms.
+The order (7–8): an arc around Agnivesh's confusion with Devika over his shoulder, then a low track-in on Guard 1's order.
+The exit (9–10): a high crane up as the procession leaves through the door, the map left lying on the relic, then a low tilt up from the trembling blade to Ranvijay's face.
+Spatial Staging & Distance:
+The relic is at the centre, the door on the west wall (screen-left), as in Ep 2.
+Opening positions continue Ep 2's last frame: Ranvijay screen-left mid-charge, Agnivesh screen-right facing him, Guards 1 and 2 a pace behind Agnivesh with swords drawn, Devika a few paces behind Agnivesh, screen-right.
+Royal Guard 3 enters through the door and stops beside Guard 1, who stays by the relic (as at 1 and 6). Guard 1's sword is still drawn, low at his side, through 4 and 5; Guard 2 is just behind (4), then off his shoulder, off-screen (5). The guards sheathe, then take Agnivesh (6): Guard 1 on his left arm, Guard 2 on his right.
+The exit order: Guard 3 leads, then Guard 1, Agnivesh and Guard 2, then Devika with the compass. Ranvijay stays by the relic, sword still drawn; the Celestial Ward Map is left lying on the relic (9).
+Acting Notes:
+Agnivesh: Calm after the standoff. Being seized puzzles him; his eyes move from guard to guard, no struggle.
+Devika: Worried, alert, compass in hand; she follows without hesitating.
+Ranvijay: The frozen rage drains into confusion at the bell, then a private, shaken stare at the sword that would not obey him. No gloating yet.
+Royal Guard 3: Young, out of breath, urgent, respectful.
+Royal Guard 1: Grave on hearing the order; "Maharaj ka aadesh hai!" is stiff and official, duty over feeling. Guard 2 follows his nod without question.
+Lighting Plan:
+Opening: Near-dark, the violet map glow the only light (Ep 2's end), then every torch flares back to warm amber at once.
+Base: Match the Archive Ward Chamber plate: warm amber torches as the key, a cool blue-violet moonlight rim, the relic's soft gold glow from below, incense haze, deep shadow at the edges.
+The violet symbol keeps pulsing faintly against the returned torchlight (2).
+The doorway: warm corridor torchlight behind Guard 3 as he enters (4).
+Scene 2: INT. SURYA MANDIR - NIGHT (MOMENTS LATER) (Shots 11–39 / 193s)
+Emotional Target: Public humiliation met with unbroken dignity, ending in a silent, fateful drop.
+Atmosphere Direction: Sacred, formal, oppressive, then trembling.
+Camera Intent:
+Entry (11–14): A track-in from the great doors behind the guards up the aisle (Throne Axis From the Doors). A crane down the pillar from its crowning mandala to the gilded name. An arc around Agnivesh's eyes on the crowd. A high crane down from the platform toward the doors as Devika and Ranvijay enter (Reverse View Toward the Temple Doors), a true 180° reverse with the sides flipped: Ranvijay arrives near, bottom-right; Devika stops screen-left of the pillar.
+The address (15–18): Back on the forward axis, a low crane down from the mandala to the throne platform as Badrinath passes his staff and steps forward. A low push-in on his opening. A single over-the-shoulder shot past Agnivesh, racking focus from him to Devika as their eyes meet, his arms still held by the guards just below frame. A snap push-in on the pointing accusation (fast beat 2).
+The argument (19–23): A track-out from Agnivesh as the guards tighten their hold, revealing the pillar; a track with Devika; a high crane down from Someshwar's raised hand to Devika being stopped; a low angle from just behind Agnivesh, craning up the platform steps to Someshwar on the throne for "Maun raho"; a track-in on "Pitashri!".
+The decree (24–26): A track-out from the unrolling scroll to Badrinath; a top-down overhead craning down onto Agnivesh alone on the floor between the courtier rows as the decree lands off-screen; a low crane up as Someshwar rises and takes the brush.
+The erasure (27–31): A track alongside Someshwar down the steps. One unbroken crane that starts on the ash-black brush in Someshwar's hand, follows it down the pillar as the ash covers the name, and ends on Agnivesh's reflection in the polished stone (first frame Pillar of the Sun Kings, last frame Name Erased (Ash-Paste)). A 4s cutaway of Badrinath watching coldly. A low arc on Ranvijay with the courtiers clapping behind. A low push-in on his gloat.
+Exile and defiance (32–37): An over-the-shoulder push-in on Someshwar's decree, Guard 2's gauntlet on Agnivesh's upper right arm at the lower-right edge; a tilt down to the fist and back, the grip on the upper arm leaving the fist free (33). Then one slow arc around Agnivesh carries the disowning: it begins on his defiance (34), is broken once by the wide from behind Someshwar's pointing arm to the open doors and the distant Archive Tower (35, Reverse View Toward the Temple Doors: a true 180° reverse, sides flipped, Someshwar near, bottom-right, his right arm flung to screen-left, hands empty), continues back on the forward axis around Agnivesh while Someshwar's "Tum Suryagarh ka tej nahi..." plays off-screen left (36), and settles close as he lowers his head and the cut reopens with a bead of fresh blood (37).
+The drop (38–39): A static, floor-level slow-motion drop (static hold); a fast tilt and crane up the pillar to the open roof (fast beat 3).
+Spatial Staging & Distance:
+The great doors are at the near end, the Pillar of the Sun Kings free-standing at the centre of the hall, and the raised throne platform with the Sun Throne at the far end beneath the gilded mandala.
+Royal Priests stand in a line on either side of the platform; Royal Courtiers crowd along both side walls.
+Agnivesh is held a pace in front of the pillar, his gilded name at about knee height beside him. Guard 1 holds his left arm, Guard 2 his right.
+Devika stands at the front of the courtiers on the hall's right side as seen from the doors (screen-right; screen-left of the pillar in the 14 reverse); Ranvijay at the foot of the platform, screen-left (near, screen-right in the 14 reverse). At 20 Devika steps out and stops a few paces short of the platform steps, screen-right; she stays there for the rest of the scene (through the end of Track 6 at 26, the erasure, and near the platform steps at 39).
+Badrinath hands his staff to the nearest priest before he steps to the platform's edge; a priest takes the scroll and holds the ash-paste bowl.
+When Someshwar raises his hand, Guard 2 alone releases Agnivesh's right arm and steps in front of Devika, arm across her path (21); Guard 1 keeps hold of Agnivesh. Guard 2 is back on Agnivesh's right arm by 22.
+Someshwar comes down the steps to stand a few paces from Agnivesh beside the pillar for the erasure and the exile. While he is off-screen during 33–34 a priest takes the brush from him; his hands are empty from 35.
+Acting Notes:
+Agnivesh: Bewildered, then shocked at the accusation, then steady. "Pitashri!" is hurt, controlled, never pleading. Watching the erasure, only the jaw and the fist move. The defiance is low and slow. He lowers his head not in defeat but in grief.
+Someshwar: A cold, self-righteous king. "Maun raho" is a blade, not a shout. The erasure is performed deliberately, as a ritual. His fury at "Vansh ka naam" is the one moment his control slips; the disowning that follows is heard off-screen over Agnivesh, so the weight sits on the son's face.
+Badrinath: Grave, measured, almost compassionate in tone, which makes it worse. The pointing accusation rises in pitch, and the decree is read merciless and formal. During the erasure (29) he watches with cold, still eyes: satisfaction held completely in check. No smirk in this scene; the smile is saved for the last shot.
+Devika: Firm and urgent, stepping out of place in a court where she has no right to speak. Stopped by the guard, she holds her ground and does not push past.
+Ranvijay: Smug again. The smile comes first, then the loud gloat; he enjoys the applause.
+Courtiers: Mixed and human. A few clap; others look away or at each other.
+Priests: Formal and still; one holds the staff, one the bowl and the scroll, and one takes the brush from Someshwar off-screen (33–34).
+Guards: Impassive, impersonal, a firm grip.
+Lighting Plan:
+Base: Match the High Sun Temple plate: hundreds of brass oil lamps as the warm, flickering key, cool blue moonlight through the roof oculus as a backlight, volumetric shafts, drifting incense smoke and golden haze, low-key chiaroscuro.
+The platform: The Sun Throne and mandala catch gold highlights from the lamps; the faces on the platform are lit from below by the lamp rows on the steps.
+The pillar: Moonlight from the oculus rims the pillar; the gilded names glint in lamplight until the ash makes the erased name a dead matte black.
+The reflection: The polished stone band beside the name catches the lamps; Agnivesh's reflected face is lit warm from the lamp rows (28).
+The overhead: From above, the lamp pools on the floor isolate Agnivesh in a ring of light between the darker courtier rows (25).
+The wrist: A faint warm-gold glow through the silk of the scorched cuff, a small motivated source (33).
+The reverse to the doors: Lamp key inside, cool night through the open doors (35).
+The drop: Lamplight caught in the falling drop (38). During the rumble the lamps sway and shadows swing (39); no violet light inside the temple yet.
+Integration: Skin, metal and fabric take the same flicker and colour as the plate, with real contact shadows on the stone floor.
+Scene 3: EXT. SURYAGARH CITADEL - NIGHT (CONTINUOUS) (Shots 40–49 / 60s)
+Emotional Target: Terror at a cosmic omen, twisted into blame, with the truth spoken and ignored.
+Atmosphere Direction: Apocalyptic, chaotic, then icy.
+Camera Intent:
+The crack (40–41): An extreme wide of the city from the carved temple terrace, with a slow push-in as the dome cracks, held a beat longer on the cracked dome (first frame Suryagarh Citadel, last frame Raksha-Kavach Cracked (Violet Thunder)). The whole city sits inside the dome: its shell arches overhead and in front of the shikhara and palace spires, its walls curve down to the ground on both sides, and the mountains, the sea and the moon lie outside it. The crack runs across the top of the shell from the far northern side, branching toward camera, with violet thunder arcing down inside the dome. Then a worm's-eye tilt from the empty temple steps up to violet thunder forking along the crack, the shikhara standing inside the shell (Temple Steps, Low Angle).
+The steps (42): A fast track back ahead of the court as it bursts out of the doors, between the fire bowls (fast beat 4), the court stacked in depth down the steps, never in a line.
+The blame (43–44): A low push-in on Badrinath pointing, then a reverse over his arm onto Agnivesh held between the guards.
+Fear and truth (45–47): An arc around Someshwar, finding Ranvijay stepping back behind him; an insert on the spinning compass (Spinning Needle State); a low push-in on Devika's line.
+The ending (48–49): A crane up over the frightened court, stacked in depth, to the shikhara and the crack spreading across the shell overhead; a slow push-in on Badrinath's half-smile under the cracked dome; HARD CUT.
+Spatial Staging & Distance:
+The court spills from the great doors down the wide temple steps that overlook the citadel. The temple, the terrace, the steps and the whole city are inside the Raksha-Kavach: the shell arches overhead and its walls come down to the ground on both sides, beyond the temple; the mountains and the sea are outside it.
+Screen-left group: Someshwar and Badrinath (a pair), Ranvijay behind them. Screen-right group: Agnivesh tight between Guards 1 and 2 (middle-right, higher), and Devika a step behind him.
+Courtiers stacked in depth on the steps, nearest camera (42, 48). Nobody stands in a line across the frame.
+Acting Notes:
+Badrinath: Triumphant and accusing in public, then, in the final close-up, a faint, cold half-smile that nobody else sees. Barely a movement; it should read as the same man who watched the erasure (29).
+Someshwar: Anger aimed at his son, with fear underneath.
+Ranvijay: Fear wins over swagger; he steps back and grips the hilt.
+Devika: Defiant and clear over the thunder, the evidence in her hand.
+Agnivesh: Silent, held, looking up at the crack, a thin trace of fresh blood at the nick. No reaction to the blame; he is thinking.
+Courtiers: Real fear: hands to mouths, people pulling back.
+Lighting Plan:
+Base: Match the regenerated Suryagarh Citadel plate (v2): warm amber fire bowls and lamp glow on the terrace and steps, cool blue moonlight and starlight above, and the golden glow of the dome washing down over the rooftops from the shell overhead (we are inside it).
+The crack: A cold violet flicker from the fracture and the violet thunder is the only new light, rimming faces and the stone, flickering in time with the thunder.
+The empty steps: The fire bowls whipped by the wind, warm against the violet thunder overhead (41).
+The doors: Warm oil-lamp light spilling out of the temple doors behind the court (42).
+The compass: Violet flicker on the brass (46).
+The half-smile: Half his face warm from a fire bowl, half cold violet (49).
+Lighting Direction (all scenes)
+Match the plate: Every shot is lit to match its location asset: the same direction, colour temperature, contrast and haze.
+Integrated characters: Characters are lit by the set's own sources, never by a separate flat key, so they never look pasted-on. Contact shadows, bounce and flicker must agree with the plate.
+Period-correct sources only: Oil lamps, torches, fire bowls and moonlight. The relic, the violet map symbol, the wrist glow, the Raksha-Kavach dome and the violet crack are treated as motivated light sources (gold or violet) that spill onto faces and surfaces. No electric light.
+Look: Photorealistic live-action, with natural skin texture and real fabric and metal. No CGI look, no plastic skin, no glossy game-engine light.
+Contrast: Low-key chiaroscuro throughout. Highlights stay on faces and hands in the centre third.
+Time: The whole episode plays at night; every video prompt opens with "at night".
+⑤ Sound Direction
+Concrete Environmental & Foley SFX:
+
+Scene 1: The violet pulse throb under silence; torches roaring back to life in one whoosh; a deep temple bell tolling through the palace; hurried footsteps; an urgent whisper; two blades sliding home into scabbards; gauntlets clamping on silk; marching boots fading down the corridor; a faint rattle of the trembling blade.
+Scene 2: Hundreds of oil lamps crackling; incense hiss; murmurs rising and falling; a priest's small bell; a staff passed with a wooden knock; parchment crackling open; the throne creaking; the wet drag of ash-paste over stone in total silence; scattered applause; a slow-motion drip and a single amplified impact; then a deep rumble with lamps and bells rattling.
+Scene 3: Violet thunder cracking across the sky; a deep shattering hum from the dome; rushing feet and robes; fire bowls roaring in the wind; the compass needle whirring; the thunder falling away before the hard cut.
+Silence Strategy: Total silence while the brush erases the name and over Badrinath's cold look (28–29), broken only by the drag of the paste. A second silence for the falling drop (38), with only the drip and its impact. The rumble (39) breaks it. A final drop-out of the thunder under Badrinath's half-smile, ending on the hard cut.
+
+⑥ Transitions & Visual Continuity
+Inter-Scene Transitions:
+
+Ep 2 to Scene 1: Ep 2 ends on the HARD CUT to black on the pulsing violet symbol, with Ranvijay frozen mid-charge. Ep 3 opens on the same freeze in violet dark, and the torches flare back.
+Scene 1 to Scene 2: The temple bell's toll carries over the cut; straight cut to the great temple doors as the guards march Agnivesh in.
+Scene 2 to Scene 3: The rumble and the upward tilt to the open roof (39) cut straight to the extreme wide of the cracking dome (40).
+Scene 3 Climax: A slow push-in on Badrinath's half-smile, then HARD CUT to black. No freeze-frame, no fade.
+Visual Continuity Anchors:
+
+Agnivesh's Attire: Scorched Cuff + Throat Nick in every shot: his exact Ep 1 outfit (fitted deep royal-blue silk angrakha with full-length sleeves and gold zari cuffs, sleek silver-and-gold breastplate with the sun-mandala boss, layered silver shoulder guards, silver-and-gold waist guard, ivory gold-bordered dhoti, maroon angavastram, pearl mala, tall boots with silver shin guards), with the scorched right cuff pulled down so the mark is never visible. No scabbard, no weapon, hands free. The Ancient Book does not appear.
+The Wound: The thin cut at the front-left of the throat below the jaw from shot 1, reopening at 37 with a single drop (Neck Wound State for the close-up). From 37 to the end of the episode the nick shows fresh blood (39, 42, 44, 48).
+The Mark: Hidden under the cuff throughout. Only a faint golden glow flickers through the silk at 33.
+Being Held: Guards 1 and 2 sheathe their swords (6) and hold his arms from then until the end (Guard 1 left arm, Guard 2 right arm), except for Guard 2's brief block of Devika (21; Guard 2 alone, back on the arm by 22). The hold continues just below frame in the over-the-shoulder at 17; Guard 2's gauntlet is on his upper right arm at 32–33, leaving the fist free. Until 6, Guard 1 stays by the relic with his sword drawn low (4–5).
+Royal Guard 3: In Scene 1 only; enters through the chamber door, sword sheathed, stops beside Guard 1 by the relic (4), and leaves with the guards, leading the way (9).
+Ranvijay: Carries only the Ancestral Sword; no talwaar of his own in any shot. Sc 1: drawn (raised, then lowered and trembling in his right hand). Sc 2 and Sc 3: sheathed through his waist sash, his hand gripping the hilt at 30, 31 and 45.
+Devika: Turquoise-and-gold warrior attire, Devika's Dagger at her belt as her only weapon (the linked Ep 1/2 card "Devika's Dagger", not the Asset Center card named "Dagger"), the Brass Compass in her left hand in all three scenes. Her hands never draw the dagger. Positions: a few paces behind Agnivesh, screen-right (Sc 1); at the front of the right-hand courtiers (14–17); a few paces short of the platform steps, screen-right, from 20 to the end of Sc 2; a step behind Agnivesh, screen-right, on the steps (42–49).
+Badrinath: His sun-mandala staff goes to a priest before he speaks (15). His hands are then free for the scroll (24–25) and the brush (26). The scroll and the ash bowl go to priests.
+Someshwar: The Golden Crown (part of his card) throughout. The brush is in his right hand from 26 to 32; a priest takes it from him off-screen during 33–34, and his hands are empty from 35 to the end.
+The Pillar: The name is gilded until 28, and erased (Name Erased (Ash-Paste)) from 28 to the end of the scene; Agnivesh's reflection in the polished stone beside it at the end of 28.
+Dialogue off-screen: Badrinath's second half of the decree (25) and Someshwar's "Tum Suryagarh ka tej nahi..." (36) are delivered off-screen, marked (O.S.) in the Dialogue column, verbatim and with the speaker named.
+The Map: Lying on the Sun-Seal Relic in Sc 1, the northern symbol pulsing violet. It is left lying on the relic when the procession leaves (9) and stays in the chamber (Devika takes only the compass).
+Light: Sc 1 starts in violet dark, then torchlight. Sc 2 is oil-lamp light and moonlight. Sc 3 is fire bowls, moonlight, the dome glow and the violet crack. All at night.
+The Dome: The Raksha-Kavach encloses the whole city, the terrace and the temple steps: shell overhead, walls down to the ground on both sides, the mountains, the sea and the moon outside it (as in the regenerated Suryagarh Citadel images). It is intact gold at the start of 40 and cracked from the north (across the top of the shell) from the end of 40 on.
+Screen Sides in the Reverses: 14 and 35 are true 180° reverses with the sides flipped; 15 and 36 return to the forward axis. Track start and end states stay in the forward orientation.
+⑦ Derivative Assets Pre-Planning List
+
+
+
+Asset Name	Derivative State	Reason / Narrative Appearance
+High Sun Temple	Throne Axis From the Doors	From just inside the great doors down the aisle: the pillar free-standing at the centre, the throne platform just beside and behind it. Master for the entry, the descent and the rumble (11, 27, 39).
+High Sun Temple	Reverse View Toward the Temple Doors	From the platform edge past the pillar to the open doors and the distant Archive Tower silhouette. Devika's and Ranvijay's entrances, and Someshwar's pointing arm (14, 35).
+Pillar of the Sun Kings	Name Erased (Ash-Paste)	The name near the base smeared out with black ash-paste. Last frame of the erasure (28), then held for the rest of Sc 2 (32–34, 36, 39).
+Suryagarh Citadel	Raksha-Kavach Cracked (Violet Thunder)	The same framing as the base (the whole city inside the dome, its walls down to the ground on both sides, mountains and sea outside), with a jagged violet fracture across the top of the shell from the north and violet thunder arcing down inside; the rest of the shell intact gold. End frame of 40 and the sky in every Sc 3 shot. Regenerated (v2, 23 Oct) from the regenerated base.
+Suryagarh Citadel	Temple Steps, Low Angle	A low angle up the temple steps, fire bowls and sun banners either side, to the open doors; the shikhara inside the cracked dome, its shell arching overhead and curving down beyond the temple on both sides. Master for Sc 3 (41–49), including the empty-steps worm's-eye (41). Regenerated (v2, 23 Oct).
+Base location updated (no new card): Suryagarh Citadel was regenerated (v2, 23 Oct) so the Raksha-Kavach encloses the city instead of standing behind it; the two derivatives above were rebuilt from it.
+
+Reused existing (no new card):
+
+Agnivesh / Scorched Cuff + Throat Nick (every Agnivesh shot) and Neck Wound State (the reopened cut, 37).
+Archive Ward Chamber / Reverse View Toward the Door (3, 4, 9), Blackout Anomaly View (first frame of 1) and Overhead Relic View (2).
+Ancestral Sword / Drawn Sunstone State (Sc 1, while the sword is drawn).
+Brass Compass / Spinning Needle State (46, 47).
+Not used in Ep 3: Scorched Cuff Glowing Mark (the mark stays hidden), Celestial Ward Map / Holographic Projection State and Folded Parchment State, and Sun-Seal Relic / Rotating Mechanical State.
+
+Handled in video, no card:
+
+The torches flaring back to life.
+The faint glow through the sleeve.
+The falling drop and the trembling floor.
+The crack spreading across the dome (between the base and the cracked derivative).

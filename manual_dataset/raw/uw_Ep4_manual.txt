@@ -1,0 +1,291 @@
+Director Production Plan: Episode 4 — Dwaar Ka Rakshak
+
+*v5, 24 Oct 2026. Built from the approved storyboard `ep4_shotlist_v5.json`: 79 shots · 332s (5m32s) · 15 video tracks · Seedance 2.5, 480p, native 9:16. v5 = v4 + Nin's approved review suggestions (6 new shots A–F, shot 45 split, purple hound smoke throughout) and a 2s-shot audit; see `ep4_changes_v5.md`. The v4 manual is backed up in `ep4/_pre_v5/`.*
+
+① Theme & Narrative Core
+Core Theme: A title can be taken away by decree, but duty cannot. The prince the court calls a bad omen becomes the only one who guards the gate, and his power wakes when he chooses to protect rather than flee.
+
+Emotional Spine:
+
+Tier 1 (Blamed Again): On the temple steps under the spreading crack, Someshwar blames the dark threat on Agnivesh, silences Devika's defence and sends him to the Archive Tower under guard. Badrinath watches; Ranvijay stays behind with the Ancestral Sword.
+Tier 2 (The Truth and the Choice): On the tower stairs the silent warning conches raise the first question. Devika's map and compass reveal that the northern gate was disabled from inside the Surya Mandir. She begs him to flee with the map; he refuses: the court exiled him, the people did not.
+Tier 3 (The Gatekeeper): The Shadow Hounds overrun the harbour barracks. The guards refuse his command; he takes a spear and runs alone. He saves a sentry with one thrown spear, sends the wounded inside, holds the gate alone, and when three hounds strike at once time stops, the sword-shaped mark blazes and golden fire burns two to ash. The pack retreats, and on a black rock at the water's edge a woman's silhouette with violet eyes turns away.
+Exit Takeaway & Expression Strategy: The audience's sympathy for an outcast turns into awe as he finally fights back. The cliffhanger is the reveal of the hidden enemy, not the victory: the hard cut lands on Kaalini turning into the mist.
+
+Natural Acting Direction (all scenes)
+Grounded and real: Every performance is understated and believable, played as if no camera were there. No theatrical poses, no stage gestures, no mugging to the lens.
+Eyes and micro-expressions over big gestures:
+Emotion reads through the eyes, breath, the jaw and small shifts of weight.
+Examples: Agnivesh looking down at the silent conches (12), Devika's fingertip on the violet line (15), her eyes welling as she blocks the stairs (37–38), Guard 1 lowering his head (34).
+Dialogue:
+Spoken at a natural pace, verbatim in Hindi (Devanagari in every prompt), never declaimed. Every dialogue shot stays at or under 2.8 words per second.
+Pauses come from thought, not from the camera.
+Where intensity rises:
+Only for the antagonists and for extreme emotion: Someshwar's fury, Devika's pleas, the sentries' terror, Agnivesh's final warning.
+Even then it stays believable. Someshwar is a cold king, not a ranting tyrant. Badrinath says nothing and only watches, hands folded. The guards' refusal is stiff and cold, not sneering.
+Stillness as power: Agnivesh never struggles against the guards and never raises his voice on the stairs. His first loud line is the command at the gate (61). The fight is economical: a throw, a thrust, a raised wrist. The speed comes from the camera and the speed ramps, not from flourishes.
+Listening: Every character is alive when not speaking. Guard 2 stays silent and does not move when Agnivesh takes Guard 1's spear (36). The wounded sentries are hurt and frightened, not heroic.
+② Visual Style & Framing Tone (Native 9:16 Vertical)
+Vertical Composition Rules:
+
+Native 9:16: Every shot is composed for 9:16 vertical, with all characters fully inside frame. Every shot line in the prompts carries a "Sides:" note saying what sits in the top, middle and bottom thirds.
+Two side by side at most: Groups of three or more are stacked in depth, never in a horizontal line. On the steps the court is layered by height: Someshwar, Badrinath and Ranvijay at the top; Devika on the steps between; Agnivesh and the guards lower. At the gate the three sentries and the hounds are layered from the gate to the beach.
+Centre third: Faces, eyelines and key hands (the compass on the map, the fingertip on the line, the spear, the blazing wrist) stay in the centre vertical third.
+Using height:
+The sky and the steps: the camera rides the crack across the shell (1), pulls back over the whole citadel (2), cranes up the temple steps (3), and lifts up and back over Ranvijay as the procession leaves (9).
+The tower: a crane up the stairwell (11); the arch on the top landing with the harbour and the Rajmahal beyond (14, 16–24, 33); the high angle down the open well toward the conches (37, 40).
+The POV: from the arch down onto the gate and the shore (24, 32).
+The gate: ground-level angles on the stalking and biting hounds (42, 44, 46, 54); low angles on the leaps and the wall-top landing (50, 62); the reverse out to the sea for the charge, the bullet-time orbit and the fire (69–75).
+The dome: the cracked Raksha-Kavach is the ceiling over Sc 1, seen through the arch in Sc 2/4, and a faint shimmer over the shore in Sc 3/5.
+Composition Style & Narrative Rationale:
+
+Up vs Down: Sc 1 shoots the king from below and Agnivesh from above while he is condemned. In the tower they sit together at the same level. At the gate the camera drops low on Agnivesh once he chooses to fight (65, 69, 75).
+Screen Line (continues Ep 3): Someshwar, Badrinath and Ranvijay are top and screen-left on the steps; Agnivesh and the guards are lower, screen-right; Devika is between them. In the tower Devika sits screen-left and Agnivesh screen-right, with the arch upper-right. At the gate the base view looks from the beach toward the gate; the reverse (Reverse From the Gate Toward the Shore) looks out to the sea and the black rock.
+The reverses: The tower derivatives and the shore reverse are true reverses, so screen sides flip in those shots only (24, 32, 37, 40, 54–57, 69–75, 77, 79). Track start and end states stay in the forward orientation.
+Three-Layer Spatial Separation:
+
+Foreground: The guards' gripping hands and spear shafts, the conches, the map and compass, the near gate post, the impaled hound.
+Midground: The principals.
+Background: The court and the cracked dome (Sc 1); the arch, harbour and Rajmahal (Sc 2/4); the gate, wall torches and tower on the cliff, or the beach, sea and black rock (Sc 3/5).
+Cinematography Direction
+Camera Movement:
+
+Flowing moves for the drama: Slow push-ins, track-ins and track-backs, arcs, orbits, cranes, tilts and rack focus, each motivated by a move, a look or a reveal. No slow sideways pans.
+FAST beats, Marvel-style (24 shots: 26, 27, 28, 29, 30, 31, 32, 36, 41, 42, 43, 44, 45, 50, 51, 52, 53, 69, 70, 71, 72, 73, 74, 75): the action is cut on short 2–5s shots with lateral tracks, crash-ins, snap zooms, speed ramps and bullet time, exactly as written in each shot. The key ones:
+The hounds hit the sentries, seen in a 2s-a-shot run (26–32).
+Agnivesh snatches Guard 1's spear and turns down the stairs (34, quick follow).
+The barracks overrun: the stalk, the swipe, the bite and the drag (41–45).
+The leap and the throw: a fast tilt with the leap (50), then a speed ramp from a fast track into slow motion as the spear flies past the sentry into the hound (52), and a snap back to real time (53).
+The climax (69–75): the charge, the fast lateral track with the two leaps, a 180-degree bullet-time orbit while the hounds hang in the air (71), the impact, a speed ramp as the spear butt hits the ground (73), a crash zoom onto the wrist (74), and extreme slow motion as the golden fire leaves the mark, then a hard ramp to full speed (75).
+Static holds (8, for emphasis: 12, 46, 48, 54, 56, 57, 58, 66): the silent conches with a rack focus to Agnivesh (12); the dropped sword at ground level (46); the hound landing dead at the sentry's feet (54); the pack stopping to stare (56); Devika frozen in shock (58).
+No jump cuts. No two consecutive shots share the same size and angle.
+Shot-Size Variety:
+
+Extreme wides: The citadel under the cracked dome (2), the POV onto the shore (24).
+Wides: The steps (3), the procession (9), the stairwell (11), the horn (22), the POV of the overrun (32), the gate (41, 49, 67), the dead hound at ground level (54), the charge (69) and the retreat (77).
+Mediums and medium wides: Carry the guards, the sitting exchange and the fight.
+Medium close-ups and close-ups: For the verdict, the reading of the map, the refusals and the sentries' cries.
+Inserts and extreme close-ups: The map and compass top-down (15), the conches (12), the dropped sword (46), the smoke from the dead hound's mouth (55), the blazing wrist (74), Kaalini's violet eyes opening the last dolly out (79).
+Over-the-shoulder shots (35, 37) keep the two people in an exchange in the same frame.
+Lens Choices & Depth of Field: full-frame anamorphic; 24–32mm wides with deep focus, 40–50mm mediums, 75–85mm close-ups with shallow focus; 100mm macro for the inserts (15, 46, 55, 74); flare only from real light.
+
+Rack focus: from the conches to Agnivesh (12).
+Look: Photorealistic live-action, natural skin texture, real fabric, metal and fur. No CGI look, no plastic skin.
+③ Narrative Structure & Pacing (79 Shots / 332 Seconds)
+Narrative Model: Full narrative arc for a vertical micro-drama. 79 shots, 332 seconds, about 4.2 seconds per shot on average. Dialogue is never rushed and never trimmed: the 21 script lines (23 Devanagari segments) are all verbatim, and every dialogue shot stays at or under 2.8 words per second. Silent and action beats are 2–4s.
+
+Paragraph Division Table:
+
+
+
+
+No.	Sequence Name	Scene	Shots	Duration	Core Event	Emotional Intensity	Tempo
+P1	The Verdict on the Steps	Sc 1	1–10	48s	The crack spreads; Someshwar blames Agnivesh; Devika's defence is silenced; he is marched to the Archive Tower; Ranvijay stays with the sword	75%	Formal, tightening
+P2	The Map on the Stairs	Sc 2	11–23	80s	The silent conches; the map reveals the betrayal from inside the Surya Mandir; Devika begs him to flee; he refuses; the horn	70%	Quiet, intimate, then a jolt
+P3	Alone	Sc 3–4	24–40	71s	The hounds hit the sentries (seen from the tower); the guards refuse him; he takes a spear; Devika blocks the stairs; "Apshagun hi sahi"; he runs	85%	Fast cut-in action, then a hard stop
+P4	The Gatekeeper	Sc 5	41–67	88s	The barracks overrun; the speed-ramp throw saves a sentry; the wounded sent inside; "Where is Ranvijay?"; a new spear from the rack; the gate held	90%	Action with breaths
+P5	The Fire	Sc 5	68–79	45s	The warning cut off; three hounds; bullet time; the impaling; the mark blazes; the pack retreats; Kaalini watches, HARD CUT	100%	Explosive, then a cold stop
+Total	Full Episode	5 scenes	1–79	332s			
+Video Tracks (15; each ≤30s and ≤30 references, cut only inside one script scene; prompts in `ep4_track_prompts_v5/`):
+
+
+
+
+Track	Shots	Duration	Location card(s)	Beat
+1	1–5	22s	Raksha-Kavach Cracked (Violet Thunder), Suryagarh Citadel, Temple Steps, Low Angle	The crack spreads; the court on the steps; Badrinath watches; Someshwar's accusation
+2	6–10	26s	Raksha-Kavach Cracked (Violet Thunder), Suryagarh Citadel, Temple Steps, Low Angle	The grip tightens; Devika's plea; "Bas, Devika!"; the march to the tower, Ranvijay left with the sword
+3	11–14	18s	Royal Archive Tower, Warning Conches, Top Landing Arch Over the Harbour	Up the stairs; the silent conches; "Chetaavani-Shankh..."; they sit on the top landing
+4	15–17	21s	Top Landing Arch Over the Harbour, Celestial Ward Map	The compass and the map; the violet line; the traitor inside
+5	18–19	18s	Top Landing Arch Over the Harbour	"Yeh naksha lo..."; he refuses and rises
+6	20–23	23s	Top Landing Arch Over the Harbour, Harbor Barracks Gate	"Zinda rahoge..."; "Praja ne nahi!"; the horn
+7	24–32	23s	Harbor Barracks Gate, High Angle From the Archive Tower	POV: the hounds hit the sentries (FAST 1-7)
+8	33–36	24s	Royal Archive Tower, Top Landing Arch Over the Harbour	His command; the guards' refusal; he snatches the spear (FAST 8)
+9	37–40	24s	Royal Archive Tower, Stairwell Looking Down to the Conches	Devika blocks the stairs; "Apshagun hi sahi"; he runs down past the conches
+10	41–48	19s	Harbor Barracks Gate	The barracks overrun: the stalk, the swipe, the bite, the drag (FAST 9-13)
+11	49–57	23s	Harbor Barracks Gate, Reverse From the Gate Toward the Shore	Agnivesh races in; the leap; the speed-ramp throw; the hound falls (FAST 14-16)
+12	58–61	19s	Harbor Barracks Gate	The sentry's cry; the command to take the wounded inside
+13	62–67	27s	Harbor Barracks Gate	The hound on the wall; "Where is Ranvijay?"; the spear from the rack; he holds the gate
+14	68–75	29s	Harbor Barracks Gate, Reverse From the Gate Toward the Shore	The warning cut off; three hounds; bullet time; the impaling; the mark and the fire (FAST 17-23)
+15	76–79	16s	Harbor Barracks Gate, Reverse From the Gate Toward the Shore	"Raakh mein badal dunga"; the retreat; Kaalini on the rock, HARD CUT to black
+Total	1–79	332s		
+Emotional Curve:
+
+It opens on public condemnation under a breaking sky (Sc 1).
+It drops into a quiet, intimate discovery and a choice on the stairs (Sc 2).
+It snaps into fast action with the attack, then into the guards' cold refusal (Sc 3–4).
+It builds through the fight at the gate to the bullet-time release of the mark, and ends cold on the hidden enemy (Sc 5).
+Key Visual Turning Points (No Dialogue Reliance):
+
+The Spreading Crack: The camera rides the leading edge of the crack across the golden shell (1).
+The Silent Conches: Three warning conches that never sounded (12), paid off as he runs down past them (40).
+The Violet Line: The compass points, six gates glow gold, the northern one is black, and a violet line runs to the Surya Mandir (15).
+The Refused Map: Devika holds out the folded map; he does not take it (18–19).
+The Snatched Spear: He takes Guard 1's spear (36).
+The Throw: The speed ramp drops into slow motion as the spear flies past the sentry into the leaping hound (52).
+Bullet Time: Three hounds hang in the air as the camera orbits him (71).
+The Mark: The sleeve slides back and golden fire bursts from the wrist (74–75).
+The Watcher: Violet eyes on the black rock; Kaalini turns away into the mist (79). HARD CUT.
+Pacing Direction (beat by beat)
+Principle: Breathe where the story is thinking, accelerate where it is acting. The tower scenes are the quiet centre and keep their dialogue time; the fights are cut on 2–3s actions with a reaction after each strike so it lands.
+
+Sc 1 (1–10, 48s), formal, tightening:
+
+1–3 (3s, 4s, 4s), establish: The crack spreads (violet thunder carried over the cut from Ep 3), the citadel under it, the whole court on the steps.
+4 (3s), the plant: Badrinath watching, hands folded. No smile.
+5 (8s), the accusation: Someshwar points; the line in full; the frightened courtiers behind.
+6 (3s), reaction: The grip tightens; Agnivesh does not resist; the throat nick still fresh.
+7–8 (8s, 9s), argument: Devika's plea (needle still spinning), then the king's thundering reply, one step down toward her.
+9 (4s), release: The procession leaves.
+10 (2s), insert (v5 new B): Ranvijay's knuckles whiten on the Ancestral Sword's hilt.
+Sc 2 (11–23, 80s), quiet discovery and a choice:
+
+11–13 (4s, 3s, 6s), the question: Up the torch-lit stairs, the silent dusty conches, his low question.
+14–15 (5s, 5s), the ritual: They sit; the map opens; the compass spins and points.
+16–17 (9s, 7s), the truth: Devika reads the line; he draws the conclusion.
+18–21 (10s, 8s, 9s, 8s), the argument: Four lines, each held in a single unhurried shot; the refusal (19) is played rising, eyes on the Rajmahal.
+22 (3s), the jolt: The horn; both turn to the arch.
+23 (3s, v5 new A): Cutaway to the harbour wall: the third sentry blows the brass horn while purple smoke streaks race up the beach.
+Sc 3 (24–32, 23s), the POV and the first strikes:
+
+24–25 (4s, 3s): The shore from the arch, then the tilt up a stalking hound.
+26–32 (2s, 2s, 3s, 2s, 2s, 2s, 3s): FAST 1–7. The leap, the thrust, the twist-and-bite on the shaft (3s: two beats), the wrench, the knock-down, the pinned shield, the sentries driven back. No dialogue.
+Sc 4 (33–40, 48s), alone:
+
+33–35 (8s, 6s, 7s), the command and the refusal: Guard 1's line split over two shots so his lowered head lands first.
+36 (3s), accelerate: The snatched spear and the turn down the stairs (FAST 8; 3s for the two beats).
+37–39 (6s, 6s, 9s), the last plea: Devika blocks the stairs; her voice catches; his answer, low and final, in a near-static close-up.
+40 (3s), release: Down the stairs after him.
+Sc 5 (41–79, 133s), the gate:
+
+41–48 (19s), the overrun: FAST 9–13, then the dropped sword (static), the second sentry pinned (47, 3s) and the third sentry backing away, sword shaking (48, 2s).
+49–53 (14s), the throw: Agnivesh races in; the leap (50); the sword slips and the eyes shut (51, v5 new C); the speed-ramp throw; snap back to real time.
+54–59 (14s), the stillness: The dead hound lands, purple smoke pours from it, the staring pack, hound #1 dissolves into purple smoke and the spear drops (57, v5 new D, 3s), Devika frozen, the sentry opens his eyes on the empty spear (59, 3s).
+60–61 (7s, 7s), lines: The sentry's cry, then Agnivesh's first loud command.
+62–67 (27s), the gate held: The hound on the wall splitting the stone, the cry for Ranvijay, the second spear from the rack, the faint gold pulse under the cuff (66, v5 new F), the wounded carried in and the wall hound rejoining the pack.
+68 (9s), the warning, cut off mid-word by a snarl.
+69–75 (20s), the climax: FAST 18–24, the bullet-time orbit, the impaling, the mark (74, 3s) and the fire.
+76–78 (5s, 3s, 3s), aftermath: The warning; the retreat; the impaled hound twitches and leaks purple after the pack (78, v5 new E).
+79 (5s), the cold stop: A slow dolly out from her violet eyes into the purple-tinged sea mist; she turns away. HARD CUT to black.
+④ Scene-by-Scene Emotion & Camera Intent
+Scene 1: EXT. SURYAGARH CITADEL - NIGHT (CONTINUOUS) (Shots 1–10 / 48s)
+Emotional Target: The court's fear turned into blame; a public verdict without a trial.
+Atmosphere Direction: Ominous, windswept, the sky breaking overhead.
+Camera Intent:
+The sky (1–2): a follow shot along the leading edge of the crack (Raksha-Kavach Cracked (Violet Thunder)), first frame matching Ep 3's last frames; a slow pull back over the citadel (Suryagarh Citadel).
+The court (3): a slow crane up the steps from the lower steps (Temple Steps, Low Angle).
+The plant (4): a slow push-in on Badrinath, hands folded, no staff.
+The accusation (5): a slow arc as Someshwar turns to the guards and points.
+The grip (6): a slow push-in from the king's eyeline down onto Agnivesh, the city behind.
+The plea and the reply (7–8): low push-in on Devika; a slow dolly back as Someshwar takes one step down toward her.
+The exit (9): a slow crane up and back over Ranvijay's shoulder as the procession crosses the citadel toward the tower.
+Spatial Staging & Distance: Someshwar at the top, Badrinath at his shoulder, Ranvijay beside them (screen-left, top); Agnivesh held a few steps below (Guard 1 on his left arm, Guard 2 on his right), screen-right; Devika on the steps between the two groups; Royal Courtiers in depth by the doors. The guards' swords are sheathed and they carry no spears yet.
+Acting Notes:
+Someshwar: Cold fury, sure he is protecting the kingdom. One step down at "Bas, Devika!", no more.
+Devika: Firm, not hysterical; she names the traitor inside.
+Agnivesh: Looks at the guards' hands, does not resist, says nothing.
+Badrinath: Silent, hands folded.
+Ranvijay: Grips the Ancestral Sword's hilt as the procession leaves; not drawn.
+Lighting Plan: Warm fire-bowl key, cool moonlight, the golden dome glow and the violet crack flickering as a rim; violet thunder flashes on 1.
+Scene 2: INT. ROYAL ARCHIVE TOWER - STAIRWELL - NIGHT (CONTINUOUS) (Shots 11–23 / 80s)
+Emotional Target: Suspicion turning into proof, then a quiet, unshakeable choice.
+Atmosphere Direction: Hushed, echoing, intimate; sea wind through the arch.
+Camera Intent:
+The climb (11): a slow crane up the stairwell after them (Royal Archive Tower).
+The conches (12): locked-off close-up with a rack focus from the conches up to Agnivesh.
+The question (13): low push-in, the guards' spear shafts at the frame edges.
+The landing (14): a slow track-in as they sit on the step under the arch (Top Landing Arch Over the Harbour).
+The map (15): a top-down crane down onto the map and compass at 100mm.
+The truth (16–17): a push-in on Devika reading the line; a track-in from a full shot to his medium close-up as he realises.
+The argument (18–21): an arc from the guards' side as she holds out the map; a low crane up as he rises; a push-in on her frustration; a track-in on the profile two-shot for his soft answer.
+The horn (22): a slow track back from the arch as both turn to it.
+Spatial Staging & Distance: Devika screen-left and Agnivesh screen-right, sitting side by side on one step; Guards 1 and 2 a few stairs above, each with an Iron Spear; the arch upper-right with the harbour and the Rajmahal beyond.
+Acting Notes: Agnivesh quiet, the anger held down, resolve not heroics; Devika urgent and scared for him, frustration, not anger; the guards impersonal, eyes forward.
+Lighting Plan: Warm torchlight on the stairs, cool moonlight through the arch as rim and fill; the violet line and the gold gate symbols on the map light her fingertip (15–16).
+Scene 3: EXT. HARBOR BARRACKS GATE - NIGHT (POV FROM ARCHIVE TOWER) (Shots 24–32 / 23s)
+Emotional Target: Shock: the enemy is already at the gate.
+Atmosphere Direction: Distant chaos carried up on the wind, then close, brutal speed.
+Camera Intent: A slow push-in over their shoulders through the arch (22, High Angle From the Archive Tower); a slow tilt up a stalking hound (25); then FAST 1–7 (26–32): fast lateral track, quick push, snap tilt, handheld wrench, crash-in, a drop onto the pinned shield, a crane up on the sentries driven back.
+Spatial Staging & Distance: The three sentries with their backs to the gate; the hounds coming from the beach. All three sentries use the one Royal Sentry card.
+Lighting Plan: Cool moonlight on the sea and sand, warm wall torches at the gate, sea mist, violet hound eyes and purple hound smoke.
+Scene 4: INT. ROYAL ARCHIVE TOWER - STAIRWELL - NIGHT (CONTINUOUS) (Shots 33–40 / 48s)
+Emotional Target: Abandonment by his own soldiers, and the decision to go alone.
+Atmosphere Direction: Tense, cold; the horn still echoing.
+Camera Intent:
+The command (33): a circular track around Agnivesh as he turns from the arch to the guards.
+The refusal (34–35): a low push-in on Guard 1's lowered head, then over Agnivesh's shoulder.
+The spear (36): a quick follow as he snatches Guard 1's spear and turns down (FAST 8).
+The block (37–38): over his shoulder, high angle down the well as Devika steps in front of him (Stairwell Looking Down to the Conches); close on her wet eyes.
+The answer (39): a near-static low close-up on his final answer.
+The run (40): a handheld follow behind Devika as she tucks the map away and runs down after him.
+Spatial Staging & Distance: The guards above on the stairs; Agnivesh and Devika below them. From 34 Agnivesh holds Guard 1's spear; Guard 1 is empty-handed, Guard 2 keeps his. The guards stay behind.
+Acting Notes: Guard 1 stiff and cold, duty not cruelty; Devika's voice catches, fear for him, not doubt; Agnivesh low and final.
+Lighting Plan: As Scene 2.
+Scene 5: EXT. HARBOR BARRACKS GATE - NIGHT (CONTINUOUS) (Shots 41–79 / 133s)
+Emotional Target: Desperation turning into awe, then dread.
+Atmosphere Direction: Brutal, close, wet stone and surf; then the eerie stillness of the retreat.
+Camera Intent:
+The overrun (41–48): FAST 9–13 (a push toward the gate, a low track with the stalking hound, a snap tilt with the swipe, a snap zoom on the bite, a handheld lateral track with the drag), then a locked-off insert of the dropped sword and a slow crane down on the pinned sentry.
+The arrival and the throw (49–53): a low push-in up the shore road; FAST 14–17, the leap, the speed-ramp throw, the snap back.
+The stillness (54–59): locked-off at ground level on the reverse as the hound lands dead (Reverse From the Gate Toward the Shore); a slow drift over the smoke from its mouth; locked-off on the staring pack, on Devika, and on the sentry's trembling face.
+The cries and the command (60–67): a track-in on the sentry; a track back with Agnivesh and the wounded; a tilt up to the hound on the wall and a drift down the splitting stone; a crane up as he pulls a spear from the rack; a crane down over the hounds' backs as he paces across the gateway.
+The climax (68–75): the warning cut off; FAST 18–24 as described above.
+The aftermath (76–79): a push-in past Devika and the sentries; a push-in past the impaled hound as the pack retreats; a slow dolly out from Kaalini's eyes to her silhouette.
+Spatial Staging & Distance: The base view looks from the beach toward the gate; the reverse looks out from the gate apron to the beach, the sea and the black rock. Agnivesh's back is to the gate from 67 on; the wounded, Devika and the sentries are inside the gateway behind him.
+Acting Notes: The Royal Sentry terrified and hurt, his anger at Ranvijay is panic, not politics; Agnivesh loud only for the command (61) and the last warning (76), cold and clear for the cut-off warning (68); Devika frozen at the throw (58), then practical with the wounded; Kaalini a silhouette only, no face detail, unhurried.
+Lighting Plan: Cool moonlight on the water and sand, warm wall torches on the stone, sea mist, the cracked dome with violet thunder flicker overhead; violet hound eyes and purple hound smoke; at 75 the golden fire floods the shore, and a warm gold glow stays on his wrist through 77.
+Lighting Direction (all scenes)
+Match the plate: Every shot is lit to match its location asset: the same direction, colour temperature, contrast and haze.
+Period-correct sources only: Torches, fire bowls and moonlight. The map symbols, the dome, the crack, the hound eyes and the mark are motivated gold or violet light sources. No electric light.
+Contrast: Low-key chiaroscuro throughout. Highlights stay on faces and hands in the centre third.
+Time: The whole episode plays at night; every track prompt opens with "at night".
+Smoke Rules (Nin's style, applied to every prompt)
+The Shadow Hounds trail violet-purple smoke as they move, leak it from any wound, and their smoke stays purple when they die. Never black or grey on the hounds.
+v5: the storyboard itself is now purple everywhere (55, 60, 73). Hound #1 dissolves into purple smoke in its own shot (57, 3s); the impaled hound stays on the planted spear to the end of Ep 4, leaking purple (73, 77, 78), and dissolves in Ep 5 shots 4–5. This deviates from the script's "black smoke" by Nin's approval.
+The sea mist around Kaalini is tinged purple (79).
+Demon smoke is purple (or purple-and-black). Non-magical props give black smoke only (none in this episode).
+⑤ Sound Direction
+Concrete Environmental & Foley SFX:
+
+Scene 1: Violet thunder cracking and a glassy splitting along the shell; wind whipping the fire bowls; armour creaking as the grip tightens; boots on stone steps.
+Scenes 2 and 4: Footsteps and armour echoing in the stairwell; torch crackle; parchment unfolding; the compass needle whirring; sea wind through the arch; the harbour horn; a spear wrenched from a hand; running feet down the stairs.
+Scene 3: Wind at height; snarls, claws on bronze, splintering spear shafts and shouts.
+Scene 5: Surf; snarls and growls; claws on stone; a spear whistling through the slow motion and a deep wet thud; the hiss of the dead hound's smoke; stone splitting on the wall; the bullet-time drop to a low heartbeat and stretched snarls; a deep roar of golden fire and an ash hiss; retreating paws on sand.
+Silence Strategy: Silence around the conches (12). The throw (52) drops the sound away to the spear's whistle. The pack's sudden silence at 56. The bullet-time orbit (71) is a heartbeat and stretched snarls. The last shot (79) is surf and a low violet hum rising, then silence and HARD CUT to black. Audio in every prompt: Hindi exactly as written in Devanagari, lip-synced, only the named speaker talks; tracks with no lines say so. No music cue is written into the prompts.
+
+⑥ Transitions & Visual Continuity
+Inter-Scene Transitions:
+
+Ep 3 to Scene 1: Ep 3 ends under the cracked dome. Ep 4 opens on the same sky, the crack spreading farther.
+Scene 1 to Scene 2: The procession leaves the steps (9); straight cut to the tower stairwell (11).
+Scene 2 to Scene 3: The horn and both turning to the arch (22) cut to the POV through the arch (24).
+Scene 3 to Scene 4: Back from the POV to the landing as he turns to the guards (33).
+Scene 4 to Scene 5: The run down the stairs (40) cuts to the barracks under attack (41).
+Climax: Kaalini turns away on the rock; HARD CUT to black. No freeze-frame, no fade.
+Visual Continuity Anchors:
+
+Agnivesh's Attire: Scorched Cuff + Throat Nick in every shot: the scorched right cuff pulled down, no mark visible, the thin nick at the throat. No scabbard. The Ancient Book does not appear.
+Weapons: None until 36 (Guard 1's Iron Spear); thrown at 52 and left in the hound; empty-handed after; a fresh Iron Spear from the rack at 65; planted through the hound at 72–73, staying planted through 79.
+The Mark: Hidden until 74. From 68 the sleeve is back and the mark blazes (Scorched Cuff Glowing Mark), still glowing at 76–78. Ep 5 opens in this state.
+Guards 1 and 2: Swords sheathed throughout. No spears in Sc 1; Iron Spears from Sc 2. Guard 1 on his left arm, Guard 2 on his right, until released at 14. Guard 1 is empty-handed from 36. They stay in the tower.
+Devika: Devika's Dagger as her only weapon, never drawn. The Brass Compass in her hand through Sc 2/4. The Celestial Ward Map comes out of her waist pouch at 14 and goes back into the pouch at 40, where it stays.
+Someshwar, Badrinath, Ranvijay and the courtiers: Sc 1 only. Someshwar's hands are empty; Badrinath has no staff; Ranvijay carries only the Ancestral Sword, sheathed.
+Royal Sentries: One Royal Sentry card for all three, in the same harbour livery; the speaker is the third, last-standing one. Sentry 1: stalked, bitten and dragged (42–45), drops his sword (#1) on the stones (46), hauled up by Agnivesh where he was dragged (61), sits against the gate post (76); sentry 2: knocked down, shield pinned (30–31), arm pinned and sleeve torn (47), steadied by Devika in the gateway with a bloodied arm (76); sentry 3 (the speaker): his sword (#2) slips at 51, he takes it back at 67 and holds it at 76.
+The Hounds: Violet eyes, purple smoke. One dies on the thrown spear (52–55), one on the planted spear (72–73), two turn to ash (75), and the rest retreat (77). Hound #1 dissolves into purple smoke at 57 and spear #1 drops on the stones; the impaled hound stays on spear #2 to the end and dissolves in Ep 5, shot 5. The wall hound (62–63) rejoins the pack at 67; the pack is six or seven, three attack, three or four retreat.
+The Dome: Cracked from the north and spreading at 1; the cracked dome with violet thunder overhead in the harbour wides of Sc 3/5.
+Kaalini: Silhouette and violet eyes only, at 79.
+⑦ Derivative Assets
+
+
+
+Asset Name	Derivative State	Narrative Appearance
+Royal Archive Tower	Top Landing Arch Over the Harbour	Sc 2/4 on the last flight under the arch, the harbour and the Rajmahal beyond (14, 16–24, 33)
+Royal Archive Tower	Stairwell Looking Down to the Conches	The reverse down the well for Devika's block and the run (37, 40)
+Harbor Barracks Gate	High Angle From the Archive Tower	The POV from the tower onto the gate and shore (24, 32)
+Harbor Barracks Gate	Reverse From the Gate Toward the Shore	The reverse out to the beach, sea and black rock: the dead hound, the charge, the fire, the retreat and Kaalini (54–57, 69–75, 77, 79)
+These four exist (regenerated with our prompts).
+
+Reused existing cards: Agnivesh / Scorched Cuff + Throat Nick (every Agnivesh shot) and Scorched Cuff Glowing Mark (74–78); Suryagarh Citadel / Raksha-Kavach Cracked (Violet Thunder) and Temple Steps, Low Angle (Sc 1).
+
+Handled in video, no card: the crack spreading; the compass spinning and the gate symbols lighting up on the map; the weapon rack; the golden fire and the ash; Kaalini's silhouette.
+
+Video Workspace: per Nin, the assets are not tagged or attached for this episode; someone else will tag them. The tag order for each clip is in `ep4_tracks_setup_v5.txt`.

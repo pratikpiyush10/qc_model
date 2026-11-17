@@ -1,0 +1,99 @@
+① Theme, Intent, and Narrative Core
+Core Theme: Genuine devotion rejects coercive royal entitlement, turning an assertion of romantic autonomy into an immediate fratricidal crisis.
+Emotional Through-Line:
+Layer 1 (Coercive Encroachment → Physical Boundary): Prince Ranvijay stalks into Devika's personal space, extending his hand toward her cheek; Devika intercepts and locks his wrist in mid-air, establishing uncompromising resistance through direct physical counter-force.
+Layer 2 (Intervention → Unified Defiance): Agnivesh drives his body directly between them, breaking Prince Ranvijay's line of sight; Devika laces her fingers tightly into Agnivesh's palm, transforming a private dispute into a public rejection of Prince Ranvijay's authority.
+Layer 3 (Humiliation → Lethal Escalation): Prince Ranvijay's jaw locks as his eyes drop to their locked hands; he unsheathes his curved talwar in a single metallic draw, stepping forward to press the honed edge against Agnivesh's carotid artery.
+Parting Impression: A razor-sharp cliffhanger of mortal peril—two royal brothers frozen at zero distance, where a millimetre of movement guarantees bloodshed.
+Emotional Expression Strategy: Unrelenting vertical microdrama escalation. Status flips every five seconds through physical blocking, hand contact, and weapon trajectory rather than verbal exposition.
+② Visual Style and Frame Tone
+Compositional Style:
+Frame-Within-a-Frame (Beats 0–5s): Carved teak manuscript racks and stone archive pillars flank both sides of the 9:16 vertical frame, visually trapping Devika between physical boundaries and Prince Ranvijay's encroaching torso. Narrative reason: establishes claustrophobic entrapment and predatory entitlement.
+Symmetrical Bisection (Beats 5–10s): Agnivesh steps directly down the vertical central axis, squarely splitting the frame into opposing halves—Prince Ranvijay isolated on the left, Devika protected on the right. Narrative reason: visualizes the moral and physical wall erected between oppressor and victim.
+Diagonal Tension (Beats 10–20s): Prince Ranvijay's drawn sword forms a sharp diagonal from upper-right to lower-left, slicing across Agnivesh's throat line and dominating the vertical plane. Narrative reason: introduces imminent physical danger and structural instability.
+Three-Layer Spatial Separation:
+Foreground: Silhouetted edge of an ornate wooden pillar or archival scroll cabinet leading the eye inward.
+Midground: The three principal figures locked in confrontation, occupying chest-to-head vertical screen space.
+Background: Receding stone colonnade of the royal archive with recessed book niches, providing architectural depth without visual clutter.
+Camera Movement Preference:
+Rapid crash push-in on Agnivesh's entry to underscore the disruption of Prince Ranvijay's advance.
+Snappy tilt-down and punch-in on Devika's hand gripping Agnivesh's fingers to emphasize the narrative turning point.
+Whip-pan and snap push-in tracking the sword draw, locking into an unmoving, dead-still macro framing on the blade pressed flush against neck skin.
+③ Narrative Structure and Pacing Plan
+Narrative Mode Selection: Source-faithful vertical microdrama mode (a 20-second high-density escalation divided along four dramatic beats).
+Section Division:
+
+
+
+Section	Beat Name	Time / Scene	Core Event	Emotional Intensity	Pacing
+Section 1	The Coercive Claim	0–5s / Sc1A	Prince Ranvijay corners Devika; Devika intercepts his wrist mid-air	6 / 10	Rapid hook; immediate physical deadlock
+Section 2	The Barrier	5–10s / Sc1B	Agnivesh steps between them, facing Prince Ranvijay eye-to-eye	7.5 / 10	Abrupt spatial disruption; kinetic entry
+Section 3	The Open Defiance	10–15s / Sc1C	Devika interlaces fingers with Agnivesh; Prince Ranvijay draws steel	9 / 10	Rapid reaction cutting; explosive tension
+Section 4	The Fratricidal Edge	15–20s / Sc1D	Prince Ranvijay rests the talwar blade against Agnivesh's throat	10 / 10	Absolute physical freeze on lethal jeopardy
+Emotional Curve: Continuous step-ladder escalation without plateau—entitled intimacy turns into physical resistance, escalates to public rejection, and culminates in lethal fratricidal confrontation.
+Key Turning Points:
+Turning Point 1 (03–04s): Devika's hand snaps around Prince Ranvijay's wrist; forward motion freezes instantly.
+Turning Point 2 (07–08s): Agnivesh's broad shoulder enters from off-screen, completely occluding Devika from Prince Ranvijay's reach.
+Turning Point 3 (12–13s): Devika's fingers thread into Agnivesh's hand; Prince Ranvijay's pupils contract in shock.
+Turning Point 4 (16–17s): Metallic scrape as curved steel clears the scabbard and comes to rest against Agnivesh's jugular.
+④ Per-Scene Emotion and Frame Intent
+Scene 1: Royal Archives Confrontation (Beats 1A–1D)
+Emotional Target: Claustrophobic violation transforming into resolute defiance, followed by heart-stopping lethal dread.
+Atmosphere Direction: Oppressive, volatile, confrontational.
+Shot Intent:
+Sc1A (0–5s): Tight medium close-up tracking Prince Ranvijay's reaching hand, snapping focus to Devika's fingers clamping his wrist to prove her physical refusal before her dialogue ends.
+Sc1B (5–10s): Medium two-shot punch-in as Agnivesh squares his chest against Prince Ranvijay, capturing unwavering physical parity between brothers.
+Sc1C (10–15s): Insert close-up of interlaced fingers, followed by a snap reframe to Prince Ranvijay's flared nostrils and clenching jaw to register the sting of humiliation.
+Sc1D (15–20s): Macro close-up on the steel edge depressing Agnivesh's skin without cutting, locking the viewer into immediate physical jeopardy.
+Spatial Narrative: Prince Ranvijay initially commands the visual space; Agnivesh seizes the midground buffer; Devika chooses her proximity by stepping up against Agnivesh's shoulder, visually banishing Prince Ranvijay outside their shared plane.
+Distance Design: Invasive medium close-up (0.3m invasion) → Rigid barrier (zero distance chest-to-chest) → Lethal contact (zero distance blade-to-skin).
+⑤ Sound Direction
+Ambient Sound Design:
+Dry rustle of palm-leaf manuscripts and stacked parchment reacting to nearby movement.
+Low acoustic resonance of stone flagstones inside the high-ceilinged archival chamber.
+Faint palace breeze whistling through exterior marble jali lattice.
+Action Sound Design:
+Heavy silk and brocade fabric friction as Prince Ranvijay corners Devika.
+Sharp leather-and-flesh slap as Devika grips Prince Ranvijay's wrist.
+Heavy boot-thud against polished stone as Agnivesh plants his stance.
+Ringing metallic scrape of curved talwar steel clearing a velvet-lined wooden scabbard.
+Taut flesh compression as the metal edge touches Agnivesh's neck.
+Use of Silence:
+Complete audio drop at 16 seconds when the steel touches skin: room resonance vanishes, leaving only the sound of Agnivesh's shallow throat breathing and the rigid stillness of the blade.
+⑥ Transitions and Visual Continuity
+Inter-Shot Transition Strategy:
+Hard cuts on kinetic contact beats (wrist impact, Agnivesh cutting the lens axis, sword clearing scabbard).
+Match-on-action cut from the hand interlock to Prince Ranvijay's right hand grasping his sword hilt.
+Cliffhanger freeze on the blade-to-neck contact, cutting dead to black on dialogue cut-off.
+Visual Continuity Anchors:
+Devika's grip position around Prince Ranvijay's right forearm across Sc1A.
+Agnivesh's head-to-shoulder height relationship relative to Prince Ranvijay across Sc1B and Sc1D.
+The specific interlocking pattern of Devika's right fingers in Agnivesh's left palm.
+The exact contact point where the upper third of Ranvijay's Sword blade rests against Agnivesh's neck cartilage.
+⑦ Derivative Asset Pre-Plan List
+
+
+
+Asset Name	Derivative State	Reason / Section of Appearance
+Royal Archives	low-angle view	Required for low-angle upward framing during Prince Ranvijay's aggressive sword draw and threat in Scene 1 (15–20s)
+Ranvijay's Sword	unsheathed blade	Drawn royal steel weapon state pressed against Agnivesh's throat in Scene 1 (10–20s)
+Execution Plan Step List
+Targeted Derivative Asset Generation:
+Dependencies: None (initiates from approved scriptPlan requirements and parent assets).
+Generate Royal Archives (low-angle view) to supply the low-angle perspective looking upward at the high vaulted sandstone ceiling and architectural archways during the lethal confrontation beat.
+Generate Ranvijay's Sword (unsheathed blade) to supply the isolated hero prop reference of the drawn wootz Damascus steel talwar blade.
+Locked Baseline Asset Re-use:
+Dependencies: None (anchors directly to existing locked assets in workspace).
+Anchor Prince Ranvijay to locked derivative golden armour default version.
+Anchor Devika to locked derivative Default Warrior Outfit.
+Anchor Agnivesh to locked base asset and derivative Neck Wound State.
+Anchor Royal Archives to locked base asset and derivative Reverse Archway View.
+Storyboard Table Execution:
+Dependencies: Step 1, Step 2.
+Structure the 20-second vertical microdrama across four continuous beats (0–5s, 5–10s, 10–15s, 15–20s) with 9:16 vertical composition, kinetic camera blocking, and physical action chains.
+Spatial Staging & Continuity Locking:
+Dependencies: Step 3.
+Establish the 180° dialogue axis across the archival desk, ensuring physical contact continuity for the wrist lock, interlaced fingers, and blade-to-neck placement.
+Storyboard Panel Prompting:
+Dependencies: Step 1, Step 2, Step 3, Step 4.
+Build shot prompts referencing locked character, scene, and prop assets, strictly omitting explicit lighting, color temperature, or grading descriptions to ensure illumination and shadow relationships are derived automatically from the locked scene image references.

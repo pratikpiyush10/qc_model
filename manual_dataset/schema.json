@@ -1,0 +1,710 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kuku.local/manual_dataset/schema.json",
+  "title": "Director's manual & storyboard training records",
+  "description": "Records for training a model to write director's manuals (sections ①–⑦) and Kronicle storyboard tables for Hindi micro-dramas. Raw text is verbatim from the sources; any field whose name ends in _derived, or that sits under parsed_derived, was computed by tools/build.py from that text. Unknown facts are null, never invented.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/episode"
+    },
+    {
+      "$ref": "#/$defs/shot"
+    },
+    {
+      "$ref": "#/$defs/review"
+    },
+    {
+      "$ref": "#/$defs/pair"
+    },
+    {
+      "$ref": "#/$defs/rule"
+    },
+    {
+      "$ref": "#/$defs/chat_example"
+    }
+  ],
+  "$defs": {
+    "nstr": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "paths": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "table": {
+      "type": "object",
+      "required": [
+        "header",
+        "rows"
+      ],
+      "properties": {
+        "header": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "description": "A tab-separated table copied from the manual. header = first tabbed line; rows map header cell -> cell text (verbatim)."
+    },
+    "section": {
+      "type": "object",
+      "required": [
+        "heading",
+        "text"
+      ],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "description": "First line of the section, verbatim (e.g. '③ Narrative Structure and Pacing Plan')."
+        },
+        "text": {
+          "type": "string",
+          "description": "Full section text, verbatim including the heading."
+        },
+        "labelled_fields_derived": {
+          "type": "object",
+          "description": "'Label: value' lines found in the section (derived split, values verbatim)."
+        },
+        "tables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/table"
+          }
+        },
+        "scenes": {
+          "type": "array",
+          "description": "Section ④ only: scene blocks split on 'Scene N:' headings.",
+          "items": {
+            "type": "object",
+            "required": [
+              "scene_no",
+              "heading",
+              "text"
+            ],
+            "properties": {
+              "scene_no": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "heading": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "shot_range": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "description": "Parsed from '(Shots a–b …)' in the heading, when present."
+              },
+              "stated_duration_s": {
+                "type": "integer"
+              },
+              "labelled_fields_derived": {
+                "type": "object"
+              },
+              "scene_label": {
+                "type": "string",
+                "description": "Scene number as written, e.g. '2' or '1-3'."
+              }
+            }
+          }
+        }
+      }
+    },
+    "episode": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "show",
+        "episode",
+        "source_kind",
+        "source_paths",
+        "has_manual",
+        "has_storyboard",
+        "stats",
+        "split"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "episode"
+        },
+        "show": {
+          "enum": [
+            "Ultimate Warrior",
+            "Maharishi Durvasa 2",
+            "Maharishi Durvasa"
+          ]
+        },
+        "show_project_id": {
+          "$ref": "#/$defs/nstr"
+        },
+        "episode": {
+          "type": "string"
+        },
+        "kronicle_episode_id": {
+          "$ref": "#/$defs/nstr"
+        },
+        "title": {
+          "$ref": "#/$defs/nstr",
+          "description": "Derived from title_line; null when the manual names no title."
+        },
+        "title_line": {
+          "$ref": "#/$defs/nstr"
+        },
+        "source_kind": {
+          "enum": [
+            "kronicle_extraction_verbatim",
+            "local_file_transcription",
+            "agent_report_transcription"
+          ]
+        },
+        "source_paths": {
+          "$ref": "#/$defs/paths"
+        },
+        "has_manual": {
+          "type": "boolean"
+        },
+        "has_storyboard": {
+          "type": "boolean"
+        },
+        "manual": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "preamble": {
+              "$ref": "#/$defs/nstr"
+            },
+            "section_order": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "numbered_headings_instead_of_circled": {
+              "type": "boolean"
+            },
+            "sections": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/$defs/section"
+              },
+              "description": "Keys: s1_theme_emotional_arc, s2_visual_style_camera, s3_narrative_structure_beats, s4_scene_intent, s5_sound, s6_transitions_continuity, s7_derivative_assets, s8_extra_execution_or_look."
+            },
+            "beat_table": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/table"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "First table of section ③."
+            },
+            "track_table": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/table"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Second table of section ③ (video tracks, act table, etc.) when present."
+            },
+            "derivative_asset_table": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/table"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "stated_shot_count": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "stated_duration_s": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "manual_text_clean": {
+              "type": "string",
+              "description": "Manual text minus appended chat/production-note blocks."
+            },
+            "heading_anomalies_derived": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Headings whose circled number disagrees with their title (e.g. Durvasa EP4 V2 '③ Sound Direction'); filed by title."
+            }
+          }
+        },
+        "appended_blocks": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "kronicle_chat_block (Ep2 producer audit/asset chat) and appended_production_note (Ep4/Ep5 Video Workspace notes), verbatim."
+        },
+        "storyboard_header_raw": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "storyboard_parse_warnings": {
+          "type": "array"
+        },
+        "scripts_matched_derived": {
+          "type": "array"
+        },
+        "primary_script_path": {
+          "$ref": "#/$defs/nstr"
+        },
+        "stats": {
+          "type": "object",
+          "required": [
+            "shot_count",
+            "total_duration_s"
+          ]
+        },
+        "stats_vs_manual_derived": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "scene_links_derived": {
+          "type": "array"
+        },
+        "beat_shot_ranges_derived": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "manual_raw": {
+          "$ref": "#/$defs/nstr",
+          "description": "The raw manual file, byte-for-byte."
+        },
+        "split": {
+          "enum": [
+            "train",
+            "val"
+          ]
+        },
+        "notes": {
+          "$ref": "#/$defs/nstr"
+        },
+        "episode_base": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Episode label without version suffix; versions of one episode share it and the split."
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Kronicle V1/V2 toggle when an episode has two saved versions (Durvasa EP4)."
+        }
+      }
+    },
+    "shot": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "show",
+        "episode",
+        "shot",
+        "source_paths",
+        "columns",
+        "parsed_derived"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "shot"
+        },
+        "show": {
+          "type": "string"
+        },
+        "episode": {
+          "type": "string"
+        },
+        "shot": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "row_index": {
+          "type": "integer"
+        },
+        "source_paths": {
+          "$ref": "#/$defs/paths"
+        },
+        "source_line": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "columns": {
+          "type": "object",
+          "description": "Every storyboard cell, verbatim, under canonical names: shot, title, frame_description, scene, asset_names, duration, shot_size, camera_movement, character_action, orientation, spatial_relationship, emotion, dialogue, sound_effects, asset_ids, asset_pictures, group (Durvasa EP12). Missing columns are absent."
+        },
+        "parsed_derived": {
+          "type": "object",
+          "properties": {
+            "duration_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "start_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "end_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "asset_names_list": {
+              "type": "array"
+            },
+            "asset_ids_list": {
+              "type": "array"
+            },
+            "asset_uuids": {
+              "type": "array"
+            },
+            "dialogue_segments": {
+              "type": "array"
+            },
+            "has_dialogue": {
+              "type": "boolean"
+            },
+            "dialogue_has_devanagari": {
+              "type": "boolean"
+            },
+            "orientation_list": {
+              "type": "array"
+            },
+            "shot_size_bucket": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "camera_move_buckets": {
+              "type": "array"
+            },
+            "scene_run_index": {
+              "type": "integer"
+            }
+          }
+        },
+        "prev_shot_id": {
+          "$ref": "#/$defs/nstr"
+        },
+        "next_shot_id": {
+          "$ref": "#/$defs/nstr"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "show",
+        "episode",
+        "source_paths",
+        "item",
+        "issue",
+        "review_kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "review"
+        },
+        "review_block": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "review_no": {
+          "$ref": "#/$defs/nstr"
+        },
+        "raw_header": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "severity_raw": {
+          "$ref": "#/$defs/nstr"
+        },
+        "severity_level_derived": {
+          "enum": [
+            "critical",
+            "major",
+            "moderate",
+            "minor",
+            "info",
+            null
+          ]
+        },
+        "item": {
+          "$ref": "#/$defs/nstr"
+        },
+        "issue": {
+          "$ref": "#/$defs/nstr"
+        },
+        "suggested_fix": {
+          "$ref": "#/$defs/nstr"
+        },
+        "referenced_shots_derived": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "referenced_shot_ids_derived": {
+          "type": "array"
+        },
+        "review_kind": {
+          "enum": [
+            "kronicle_storyboard_or_plan_audit",
+            "video_prompt_qc_orig_vs_v2"
+          ]
+        }
+      }
+    },
+    "pair": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "pair_type",
+        "show",
+        "episode",
+        "split",
+        "source_paths",
+        "input",
+        "output"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "pair"
+        },
+        "pair_type": {
+          "enum": [
+            "script_to_manual",
+            "script_to_manual_section",
+            "script_to_storyboard",
+            "manual_to_storyboard",
+            "section_to_section",
+            "scene_intent_to_shots",
+            "row_to_critique",
+            "beat_to_shot_plan",
+            "storyboard_revision"
+          ]
+        },
+        "split": {
+          "enum": [
+            "train",
+            "val"
+          ]
+        },
+        "source_paths": {
+          "$ref": "#/$defs/paths"
+        },
+        "input": {
+          "type": "object"
+        },
+        "output": {
+          "type": "object"
+        },
+        "pairing_method_derived": {
+          "type": "string"
+        },
+        "pairing_score_derived": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "link_method_derived": {
+          "type": "string"
+        },
+        "range_method_derived": {
+          "type": "string"
+        },
+        "grounding_derived": {
+          "enum": [
+            "shot_rows",
+            "episode_stats"
+          ]
+        },
+        "review_id": {
+          "type": "string"
+        },
+        "episode_base": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Episode without version suffix (EP4 for EP4V1/EP4V2)."
+        },
+        "alignment_derived": {
+          "type": "string"
+        }
+      }
+    },
+    "rule": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "category",
+        "origin",
+        "rule_text",
+        "evidence",
+        "source_paths"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "rule"
+        },
+        "category": {
+          "type": "string"
+        },
+        "applies_to": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "distilled_from_manual_patterns",
+            "distilled_from_kronicle_reviews",
+            "distilled_from_storyboard_patterns",
+            "pratik_production_rule"
+          ]
+        },
+        "rule_text": {
+          "type": "string"
+        },
+        "rule_text_is_derived": {
+          "type": "boolean"
+        },
+        "cited_episodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "source_path",
+              "quote"
+            ]
+          }
+        },
+        "source_paths": {
+          "$ref": "#/$defs/paths"
+        }
+      }
+    },
+    "chat_example": {
+      "type": "object",
+      "required": [
+        "messages"
+      ],
+      "properties": {
+        "messages": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "role",
+              "content"
+            ],
+            "properties": {
+              "role": {
+                "enum": [
+                  "system",
+                  "user",
+                  "assistant"
+                ]
+              },
+              "content": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "meta": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

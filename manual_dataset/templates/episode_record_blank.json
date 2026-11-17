@@ -1,0 +1,236 @@
+{
+ "id": "<show_code>_<ep>",
+ "record_type": "episode",
+ "show": null,
+ "show_project_id": null,
+ "episode": null,
+ "kronicle_episode_id": null,
+ "title": null,
+ "title_line": null,
+ "source_kind": null,
+ "source_paths": [],
+ "has_manual": false,
+ "has_storyboard": false,
+ "manual": {
+  "preamble": null,
+  "section_order": [],
+  "numbered_headings_instead_of_circled": false,
+  "sections": {
+   "s1_theme_emotional_arc": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Core Theme": null,
+     "Tier 1 (Martial Vaunt vs. Ascetic Quiet)": null,
+     "Tier 2 (The Crucible of Public Shaming)": null,
+     "Tier 3 (Primordial Awakening)": null,
+     "Audience Takeaway & Emotional Strategy": null
+    },
+    "tables": []
+   },
+   "s2_visual_style_camera": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Compositional Grammar (16": null,
+     "Center-Weighted Safe Area Staging": null,
+     "Horizontal Wings for Environmental Scale": null,
+     "Vertical Stacking within Center Zone": null,
+     "Frame-within-Frame": null,
+     "Foreground": null,
+     "Midground": null,
+     "Background": null,
+     "Camera Grammar": null,
+     "Strict Exclusions": null,
+     "Dolly Push / Pull": null,
+     "Crane Pedestal": null
+    },
+    "tables": []
+   },
+   "s3_narrative_structure_beats": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Narrative Model Selection": null,
+     "Global Rhythm & Scale": null,
+     "The Dropped Blade": null,
+     "The Descent to Knees": null,
+     "The Horizontal Transfer": null,
+     "The Searing Cuff": null
+    },
+    "tables": []
+   },
+   "s4_scene_intent": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Scene 1": null,
+     "Emotional Objective": [],
+     "Atmospheric Direction": [],
+     "Camera Intent": [],
+     "Spatial Narrative": [],
+     "Distance Design": [],
+     "Scene 2": null,
+     "Scene 3": null,
+     "Scene 4": null
+    },
+    "tables": [],
+    "scenes": []
+   },
+   "s5_sound": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Arena Textures": null,
+     "Courtly & Crowd Textures": null,
+     "Weapon Handling": null
+    },
+    "tables": []
+   },
+   "s6_transitions_continuity": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Scene 1 to Scene 2": null,
+     "Scene 2 to Scene 3": null,
+     "Scene 3 to Scene 4": null,
+     "Scene 4 Climax": null,
+     "Ancestral Sword": null,
+     "Ancient Book": null,
+     "Wardrobe State": null
+    },
+    "tables": []
+   },
+   "s7_derivative_assets": {
+    "heading": null,
+    "text": null,
+    "labelled_fields_derived": {
+     "Name": null,
+     "UUID": null,
+     "Does not exist (derive": null
+    },
+    "tables": []
+   }
+  },
+  "beat_table": {
+   "header": [],
+   "rows": []
+  },
+  "track_table": null,
+  "derivative_asset_table": {
+   "header": [],
+   "rows": []
+  },
+  "stated_shot_count": null,
+  "stated_duration_s": null,
+  "manual_text_clean": null
+ },
+ "appended_blocks": null,
+ "storyboard_header_raw": [],
+ "storyboard_parse_warnings": [],
+ "scripts_matched_derived": [],
+ "primary_script_path": null,
+ "stats": {
+  "shot_count": null,
+  "total_duration_s": null,
+  "avg_shot_s": null,
+  "min_shot_s": null,
+  "max_shot_s": null,
+  "dialogue_shot_count": null,
+  "shot_size_distribution_raw": {
+   "Medium Wide": null,
+   "Wide": null,
+   "Wide to Medium": null,
+   "Medium Wide to Wide": null,
+   "Medium": null,
+   "Wide to Medium Wide": null,
+   "Extreme Wide to Wide": null,
+   "Extreme Wide": null,
+   "Medium Wide to Medium": null,
+   "Extreme Close-up (insert)": null,
+   "Medium to Wide": null,
+   "Medium to Extreme Close-up": null
+  },
+  "shot_size_bucket_distribution_derived": {
+   "MWS": null,
+   "WS": null,
+   "MS": null,
+   "EWS": null,
+   "ECU": null
+  },
+  "camera_move_distribution_raw": {
+   "Slow dolly-in": null,
+   "Lateral track along the canopy": null,
+   "Aerial crane down into a low track alongside the horse": null,
+   "Slow pan across the cheering stands": null,
+   "Tracking with the horse, settling": null,
+   "Slow push-in, low angle": null,
+   "Slow arc around the rider": null,
+   "Low-angle push-in to the throne": null,
+   "Over Someshwar's shoulder down to the arena, then crane up": null,
+   "Slow aerial drift": null,
+   "Slow dolly-in between the shelves, then a pan with him to the door": null,
+   "One continuous move: track behind him, then arc around through the doorway to his front": null,
+   "Start on Ranvijay turning, pan off him to Agnivesh walking": null,
+   "Slow push-in, low angle on the rider": null,
+   "Slow arc on Badrinath, then a pan down to the laughing stands": null,
+   "Crane down with him and back up, then a slow push-in toward his joined hands": null,
+   "Static": null,
+   "Low-angle slow push-in": null,
+   "Static from behind him, then a slow arc around to his front": null,
+   "Push-in, tilt down after the falling sword, then crane up to the stands": null,
+   "Slow orbit around the horse": null,
+   "Static, then a slow push-in": null,
+   "Low-angle tilt up as he rises": null,
+   "Over Someshwar's shoulder, slow push down to Agnivesh": null,
+   "Crane down with him as he kneels": null,
+   "Static low angle, then a slow push-in": null,
+   "Over Someshwar's shoulder, static": null,
+   "Crane up as he rises": null,
+   "Track with Ranvijay into a static profile two-shot": null,
+   "Slow push-in on Agnivesh, then crane up and back to the tense crowd": null,
+   "Low-angle tracking with his step": null,
+   "Slow pan across the arena from behind him": null,
+   "Slow arc around the brothers": null,
+   "Low-angle tilt up": null,
+   "Lateral track along the canopy, settling into a push-in on Devika": null,
+   "Slow push-in from his lowered hand to the wrist": null
+  },
+  "camera_move_bucket_distribution_derived": {
+   "track_dolly": null,
+   "push_in": null,
+   "crane_jib_pedestal": null,
+   "rack_focus": null,
+   "arc_orbit": null,
+   "static": null,
+   "pan": null,
+   "tilt": null,
+   "aerial_drone": null,
+   "other": null
+  },
+  "speaker_line_counts_derived": {
+   "Maharaja Someshwar": null,
+   "Prince Ranvijay": null,
+   "Agnivesh": null,
+   "Several Citizens": null,
+   "Rajguru Badrinath": null,
+   "Several Royal Courtiers": null
+  },
+  "scene_runs_derived": [],
+  "distinct_scene_values": null,
+  "review_count": null,
+  "review_severity_derived": {}
+ },
+ "stats_vs_manual_derived": {
+  "stated_shot_count": null,
+  "stated_duration_s": null,
+  "storyboard_shot_count": null,
+  "storyboard_duration_s": null
+ },
+ "manual_raw": null,
+ "split": null,
+ "notes": null,
+ "scene_links_derived": [],
+ "beat_shot_ranges_derived": [],
+ "is_example_template": true
+}
