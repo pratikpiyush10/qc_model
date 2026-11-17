@@ -1,5 +1,7 @@
 # Scene QC
 
+**Repository:** https://github.com/pratikpiyush10/qc_model
+
 Scene QC is a local web app for microdrama continuity checks. Upload an MP4, review the key frames, and read timestamped issues from Gemini. The same page offers direction suggestions drawn from the continuity rules and the director's manuals. Videos, frames, and job files stay on this machine.
 
 ## Features
