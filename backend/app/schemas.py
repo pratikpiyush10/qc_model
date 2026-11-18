@@ -1,8 +1,57 @@
-"""API shapes for jobs, key frames, and vision-analysis issues."""
+"""API shapes for jobs, key frames, vision-analysis issues, and minimal fixes."""
 
 from __future__ import annotations
 
+from enum import Enum
+
 from pydantic import BaseModel, Field
+
+
+class FixStatus(str, Enum):
+    queued = "queued"
+    running = "running"
+    completed = "completed"
+    failed = "failed"
+
+
+class MinimalFixRequest(BaseModel):
+    """Optional fields sent with the clothing reference image."""
+
+    prompt: str = ""
+    issue_id: str | None = None
+
+
+class FixJob(BaseModel):
+    id: str
+    original_job_id: str
+    status: FixStatus
+    prompt: str = ""
+    issue_id: str | None = None
+    reference_filename: str = ""
+    output_filename: str = "fixed.mp4"
+    message: str = ""
+    error: str | None = None
+    created_at: str
+    updated_at: str
+
+
+class FixJobResponse(BaseModel):
+    id: str
+    original_job_id: str
+    status: FixStatus
+    prompt: str = ""
+    issue_id: str | None = None
+    message: str = ""
+    error: str | None = None
+    created_at: str
+    updated_at: str
+    video_ready: bool = False
+
+    @classmethod
+    def from_record(cls, record: dict, *, video_ready: bool = False) -> "FixJobResponse":
+        data = dict(record)
+        data["video_ready"] = video_ready
+        return cls.model_validate(data)
 
 
 class KeyframeOut(BaseModel):

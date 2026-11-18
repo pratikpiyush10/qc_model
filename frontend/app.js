@@ -86,6 +86,37 @@ const analysisError = document.getElementById("analysis-error");
 const analysisHint = document.getElementById("analysis-hint");
 const issueEmpty = document.getElementById("issue-empty");
 const issueTable = document.getElementById("issue-table");
+const homeView = document.getElementById("home-view");
+const fixView = document.getElementById("fix-view");
+const fixUpload = document.getElementById("fix-upload");
+const fixDropzone = document.getElementById("fix-dropzone");
+const fixFileInput = document.getElementById("fix-file");
+const fixDropTitle = document.getElementById("fix-drop-title");
+const fixDropSub = document.getElementById("fix-drop-sub");
+const fixUploadButton = document.getElementById("fix-upload-button");
+const fixUploadError = document.getElementById("fix-upload-error");
+const fixBack = document.getElementById("fix-back");
+const fixContext = document.getElementById("fix-context");
+const fixSetup = document.getElementById("fix-setup");
+const fixOriginal = document.getElementById("fix-original");
+const fixFrameStrip = document.getElementById("fix-frame-strip");
+const fixImageDrop = document.getElementById("fix-image-drop");
+const fixImage = document.getElementById("fix-image");
+const fixImageStrip = document.getElementById("fix-image-strip");
+const fixPrompt = document.getElementById("fix-prompt");
+const fixAccept = document.getElementById("fix-accept");
+const fixKept = document.getElementById("fix-kept");
+const fixError = document.getElementById("fix-error");
+const fixGenerate = document.getElementById("fix-generate");
+const fixProgress = document.getElementById("fix-progress");
+const fixBar = document.getElementById("fix-bar");
+const fixFill = document.getElementById("fix-fill");
+const fixStatus = document.getElementById("fix-status");
+const fixCompare = document.getElementById("fix-compare");
+const fixCompareOriginal = document.getElementById("fix-compare-original");
+const fixCompareFixed = document.getElementById("fix-compare-fixed");
+const fixDownload = document.getElementById("fix-download");
+const fixAgain = document.getElementById("fix-again");
 const suggestionsBox = document.getElementById("suggestions");
 const suggestionsNote = document.getElementById("suggestions-note");
 const suggestionsList = document.getElementById("suggestions-list");
@@ -100,16 +131,26 @@ let viewToken = 0;
 let pollTimer = null;
 let dragDepth = 0;
 let uploading = false;
+let fixSelectedFile = null;
+let fixSession = 0;
+let fixTimer = null;
+let fixRequest = null;
+let fixFrames = [];
+let fixSelected = new Set();
+let fixLooks = [];
 
-function jobIdFromHash() {
-  const match = location.hash.match(/^#\/jobs\/([a-f0-9]{12})$/);
-  return match ? match[1] : null;
+function pathFromHash() {
+  const match = location.hash.match(/^#\/jobs\/([a-f0-9]{12})(?:\/(qc|fix))?\/?$/);
+  if (!match) return null;
+  return { id: match[1], mode: match[2] || "choose" };
 }
 
 function stopWatching() {
   viewToken += 1;
   if (pollTimer) clearTimeout(pollTimer);
   pollTimer = null;
+  stopFixPoll();
+  pauseFixVideos();
 }
 
 async function api(url, options) {
@@ -150,7 +191,9 @@ function formatBytes(bytes) {
 }
 
 function show(view) {
+  homeView.hidden = view !== "home";
   uploadView.hidden = view !== "upload";
+  fixView.hidden = view !== "fix";
   progressView.hidden = view !== "progress";
   resultsView.hidden = view !== "results";
   rulesView.hidden = view !== "rules";
@@ -244,7 +287,7 @@ function renderRecent(jobs) {
   recent.hidden = false;
   for (const job of jobs) {
     const link = document.createElement("a");
-    link.href = `#/jobs/${job.id}`;
+    link.href = `#/jobs/${job.id}/qc`;
     const name = document.createElement("span");
     name.textContent = job.filename;
     const duration = document.createElement("span");
@@ -460,6 +503,377 @@ function frameUrl(jobId, filename) {
   return `/api/jobs/${encodeURIComponent(jobId)}/frames/${encodeURIComponent(filename)}`;
 }
 
+function sourceUrl(jobId) {
+  return `/api/jobs/${encodeURIComponent(jobId)}/video`;
+}
+
+function showFixStep(step) {
+  fixUpload.hidden = step !== "upload";
+  fixSetup.hidden = step !== "setup";
+  fixProgress.hidden = step !== "progress";
+  fixCompare.hidden = step !== "compare";
+}
+
+function showHome() {
+  document.title = "Scene QC";
+  show("home");
+}
+
+function clearFixReferences() {
+  for (const frame of fixFrames) URL.revokeObjectURL(frame.url);
+  for (const look of fixLooks) URL.revokeObjectURL(look.url);
+  fixFrames = [];
+  fixSelected = new Set();
+  fixLooks = [];
+  fixFrameStrip.replaceChildren();
+  fixImageStrip.replaceChildren();
+}
+
+function refreshGenerateButton() {
+  fixGenerate.disabled = fixSelected.size === 0 || fixLooks.length === 0;
+}
+
+function renderFixFrames() {
+  fixFrameStrip.replaceChildren();
+  if (!fixFrames.length) {
+    fixFrameStrip.textContent = "No frames were read from this clip.";
+    return;
+  }
+  fixFrames.forEach((frame, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "fix-frame";
+    if (fixSelected.has(index)) button.classList.add("is-selected");
+    button.setAttribute("aria-pressed", fixSelected.has(index) ? "true" : "false");
+    const image = document.createElement("img");
+    image.src = frame.url;
+    image.alt = `Frame at ${formatTimestamp(frame.time)}`;
+    button.append(image);
+    button.addEventListener("click", () => {
+      if (fixSelected.has(index)) fixSelected.delete(index);
+      else fixSelected.add(index);
+      renderFixFrames();
+      refreshGenerateButton();
+    });
+    fixFrameStrip.append(button);
+  });
+}
+
+function renderFixLooks() {
+  fixImageStrip.replaceChildren();
+  fixLooks.forEach((look, index) => {
+    const tile = document.createElement("div");
+    tile.className = "fix-look";
+    const image = document.createElement("img");
+    image.src = look.url;
+    image.alt = look.file.name;
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "fix-look-remove";
+    remove.textContent = "Remove";
+    remove.addEventListener("click", () => {
+      URL.revokeObjectURL(look.url);
+      fixLooks.splice(index, 1);
+      renderFixLooks();
+      refreshGenerateButton();
+    });
+    tile.append(image, remove);
+    fixImageStrip.append(tile);
+  });
+}
+
+function addFixLooks(fileList) {
+  for (const file of fileList || []) {
+    const named = /\.(jpe?g|png|webp)$/i.test(file.name);
+    const typed = /^image\/(jpeg|png|webp)$/.test(file.type);
+    if (!named && !typed) continue;
+    fixLooks.push({ file, url: URL.createObjectURL(file) });
+  }
+  renderFixLooks();
+  refreshGenerateButton();
+}
+
+function waitFor(video, event) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      cleanup();
+      reject(new Error("The clip took too long to read."));
+    }, 8000);
+    const cleanup = () => {
+      clearTimeout(timer);
+      video.removeEventListener(event, onEvent);
+      video.removeEventListener("error", onError);
+    };
+    const onEvent = () => {
+      cleanup();
+      resolve();
+    };
+    const onError = () => {
+      cleanup();
+      reject(new Error("Could not read frames from this clip."));
+    };
+    video.addEventListener(event, onEvent);
+    video.addEventListener("error", onError);
+  });
+}
+
+async function captureClipFrames(url) {
+  const video = document.createElement("video");
+  video.muted = true;
+  video.playsInline = true;
+  video.preload = "auto";
+  video.src = url;
+  await waitFor(video, "loadeddata");
+  const duration = Number.isFinite(video.duration) ? video.duration : 30;
+  const count = Math.max(6, Math.min(12, Math.round(duration / 3)));
+  const frames = [];
+  for (let index = 0; index < count; index += 1) {
+    const time = Math.min(Math.max(duration - 0.05, 0), (duration * (index + 0.5)) / count);
+    video.currentTime = time;
+    await waitFor(video, "seeked");
+    const canvas = document.createElement("canvas");
+    const width = 160;
+    const height = Math.max(1, Math.round((video.videoHeight || 90) * (width / (video.videoWidth || 160))));
+    canvas.width = width;
+    canvas.height = height;
+    canvas.getContext("2d").drawImage(video, 0, 0, width, height);
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/jpeg", 0.8));
+    if (!blob) continue;
+    frames.push({ time, url: URL.createObjectURL(blob) });
+  }
+  video.removeAttribute("src");
+  video.load();
+  return frames;
+}
+
+async function loadFixFrames(url) {
+  const token = viewToken;
+  fixFrameStrip.textContent = "Reading frames from the clip…";
+  try {
+    const frames = await captureClipFrames(url);
+    if (token !== viewToken) {
+      frames.forEach((frame) => URL.revokeObjectURL(frame.url));
+      return;
+    }
+    for (const frame of fixFrames) URL.revokeObjectURL(frame.url);
+    fixFrames = frames;
+    fixSelected = new Set();
+    renderFixFrames();
+    refreshGenerateButton();
+  } catch (error) {
+    if (token !== viewToken) return;
+    fixFrameStrip.textContent = error.message;
+  }
+}
+
+async function referenceImageFile() {
+  if (fixLooks.length === 1) return fixLooks[0].file;
+  const images = await Promise.all(fixLooks.map((look) => loadImage(look.url)));
+  const width = 320;
+  const height = images.reduce((sum, image) => sum + Math.max(1, Math.round(image.height * (width / image.width))), 0);
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = Math.max(1, height);
+  const context = canvas.getContext("2d");
+  let top = 0;
+  for (const image of images) {
+    const row = Math.max(1, Math.round(image.height * (width / image.width)));
+    context.drawImage(image, 0, top, width, row);
+    top += row;
+  }
+  const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/jpeg", 0.85));
+  if (!blob) throw new Error("Could not prepare the reference images.");
+  return new File([blob], "references.jpg", { type: "image/jpeg" });
+}
+
+function loadImage(url) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = () => reject(new Error("Could not read a reference image."));
+    image.src = url;
+  });
+}
+
+function fixInstructionText() {
+  const times = [...fixSelected]
+    .sort((left, right) => left - right)
+    .map((index) => formatTimestamp(fixFrames[index].time));
+  const lines = [`Current look frames: ${times.join(", ")}.`];
+  if (fixLooks.length > 1) {
+    lines.push(`Match the clothing across ${fixLooks.length} reference images.`);
+  }
+  const note = fixPrompt.value.trim();
+  if (note) lines.push(note);
+  return lines.join("\n");
+}
+
+function showFixLanding() {
+  document.title = "Minimal Fix — Scene QC";
+  show("fix");
+  fixBack.href = "#/";
+  fixContext.textContent = "Choose the clip to edit.";
+  clearFixReferences();
+  fixSelectedFile = null;
+  fixFileInput.value = "";
+  fixDropTitle.textContent = "Drop an MP4 here";
+  fixDropSub.textContent = "The clip to edit. QC will not run.";
+  fixUploadButton.disabled = true;
+  fixUploadError.hidden = true;
+  fixOriginal.removeAttribute("src");
+  showFixStep("upload");
+}
+
+function stopFixPoll() {
+  fixSession += 1;
+  if (fixTimer) clearTimeout(fixTimer);
+  fixTimer = null;
+}
+
+function pauseFixVideos() {
+  for (const video of [fixOriginal, fixCompareOriginal, fixCompareFixed]) {
+    if (video) video.pause();
+  }
+}
+
+async function showFixPage(id) {
+  const token = viewToken;
+  show("fix");
+  fixBack.href = "#/";
+  fixError.hidden = true;
+  fixError.textContent = "";
+  fixPrompt.value = "";
+  fixImage.value = "";
+  clearFixReferences();
+  refreshGenerateButton();
+  showFixStep("setup");
+  let job;
+  try {
+    job = await api(`/api/jobs/${id}`);
+  } catch (error) {
+    if (token !== viewToken) return;
+    fixContext.textContent = error.message;
+    fixOriginal.removeAttribute("src");
+    return;
+  }
+  if (token !== viewToken) return;
+  document.title = `Fix · ${job.filename}`;
+  fixContext.textContent = job.filename;
+  fixRequest = { jobId: id };
+  const url = sourceUrl(id);
+  fixOriginal.src = url;
+  loadFixFrames(url);
+}
+
+function setFixProgress(value, message, failed) {
+  const percent = Math.max(0, Math.min(100, value));
+  fixFill.style.width = `${percent}%`;
+  fixBar.setAttribute("aria-valuenow", String(percent));
+  fixBar.classList.toggle("is-error", Boolean(failed));
+  fixStatus.textContent = message || "";
+}
+
+async function pollFix(session, fixId) {
+  if (session !== fixSession) return;
+  try {
+    const job = await api(`/api/fix-jobs/${encodeURIComponent(fixId)}`);
+    if (session !== fixSession) return;
+    if (job.status === "completed" && job.video_ready) {
+      setFixProgress(100, job.message || "Fix ready.");
+      showFixComparison(job.id);
+      return;
+    }
+    if (job.status === "failed") {
+      showFixStep("setup");
+      fixError.hidden = false;
+      fixError.textContent = job.error || "The clothing fix failed.";
+      return;
+    }
+    const percent = job.status === "running" ? 65 : 20;
+    setFixProgress(percent, job.message || "Preparing the clothing fix");
+    fixTimer = setTimeout(() => pollFix(session, fixId), 2500);
+  } catch (error) {
+    if (session !== fixSession) return;
+    showFixStep("setup");
+    fixError.hidden = false;
+    fixError.textContent = error.message;
+  }
+}
+
+function showFixComparison(fixId) {
+  const jobId = fixRequest && fixRequest.jobId;
+  fixCompareOriginal.src = sourceUrl(jobId);
+  fixCompareFixed.src = `/api/fix-jobs/${encodeURIComponent(fixId)}/video`;
+  fixDownload.href = fixCompareFixed.src;
+  fixKept.hidden = true;
+  fixAccept.disabled = false;
+  showFixStep("compare");
+}
+
+async function generateFix() {
+  if (!fixRequest || fixSelected.size === 0 || fixLooks.length === 0) return;
+  fixError.hidden = true;
+  fixGenerate.disabled = true;
+  showFixStep("progress");
+  setFixProgress(10, "Uploading the reference image");
+  const session = fixSession;
+  try {
+    const reference = await referenceImageFile();
+    if (session !== fixSession) return;
+    const body = new FormData();
+    body.append("reference_image", reference);
+    body.append("prompt", fixInstructionText());
+    const created = await api(`/api/jobs/${encodeURIComponent(fixRequest.jobId)}/minimal-fix`, {
+      method: "POST",
+      body,
+    });
+    if (session !== fixSession) return;
+    setFixProgress(20, created.message || "Waiting to apply the clothing fix");
+    pollFix(session, created.id);
+  } catch (error) {
+    if (session !== fixSession) return;
+    showFixStep("setup");
+    fixError.hidden = false;
+    fixError.textContent = error.message;
+    refreshGenerateButton();
+  }
+}
+
+fixImageDrop.addEventListener("click", () => fixImage.click());
+fixImageDrop.addEventListener("dragover", (event) => {
+  event.preventDefault();
+  fixImageDrop.classList.add("is-hot");
+});
+fixImageDrop.addEventListener("dragleave", () => fixImageDrop.classList.remove("is-hot"));
+fixImageDrop.addEventListener("drop", (event) => {
+  event.preventDefault();
+  fixImageDrop.classList.remove("is-hot");
+  addFixLooks(event.dataTransfer.files);
+});
+fixImage.addEventListener("change", () => {
+  addFixLooks(fixImage.files);
+  fixImage.value = "";
+});
+fixGenerate.addEventListener("click", () => {
+  generateFix();
+});
+fixAccept.addEventListener("click", () => {
+  fixKept.hidden = false;
+  fixAccept.disabled = true;
+});
+fixAgain.addEventListener("click", () => {
+  pauseFixVideos();
+  stopFixPoll();
+  fixCompareOriginal.removeAttribute("src");
+  fixCompareFixed.removeAttribute("src");
+  fixCompareOriginal.load();
+  fixCompareFixed.load();
+  fixError.hidden = true;
+  fixKept.hidden = true;
+  refreshGenerateButton();
+  showFixStep("setup");
+});
+
 function openFrame(job, frame, src) {
   lightboxImg.src = src;
   lightboxImg.alt = `Key frame at ${formatTimestamp(frame.timestamp_sec)}`;
@@ -506,6 +920,15 @@ function cssEscape(value) {
 
 async function watchJob(id) {
   const token = viewToken;
+  try {
+    const existing = await api(`/api/jobs/${id}`);
+    if (token !== viewToken) return;
+    if (existing.status === "queued") {
+      await api(`/api/jobs/${id}/start`, { method: "POST" });
+    }
+  } catch (_error) {
+    /* The poll below reports a missing job. */
+  }
 
   async function tick() {
     if (token !== viewToken) return;
@@ -940,12 +1363,33 @@ async function route() {
     await showDirector();
     return;
   }
-  const id = jobIdFromHash();
-  if (!id) {
+  if (location.hash === "#/qc" || location.hash === "#/qc/") {
     await showUpload();
     return;
   }
-  await watchJob(id);
+  if (location.hash === "#/fix" || location.hash === "#/fix/") {
+    await showFixLanding();
+    return;
+  }
+  const fixJob = location.hash.match(/^#\/fix\/([a-f0-9]{12})\/?$/);
+  if (fixJob) {
+    await showFixPage(fixJob[1]);
+    return;
+  }
+  const path = pathFromHash();
+  if (!path) {
+    await showHome();
+    return;
+  }
+  if (path.mode === "fix") {
+    location.replace(`#/fix/${path.id}`);
+    return;
+  }
+  if (path.mode !== "qc") {
+    await showHome();
+    return;
+  }
+  await watchJob(path.id);
 }
 
 function upload(file, onProgress) {
@@ -999,6 +1443,67 @@ dropzone.addEventListener("drop", (event) => {
   selectFile(event.dataTransfer.files[0]);
 });
 
+function selectFixFile(file) {
+  if (!file) return;
+  if (!file.name.toLowerCase().endsWith(".mp4")) {
+    fixUploadError.hidden = false;
+    fixUploadError.textContent = "Choose an .mp4 video.";
+    return;
+  }
+  fixSelectedFile = file;
+  fixUploadButton.disabled = false;
+  fixDropTitle.textContent = file.name;
+  fixDropSub.textContent = formatBytes(file.size);
+  fixUploadError.hidden = true;
+}
+
+fixDropzone.addEventListener("click", () => fixFileInput.click());
+fixFileInput.addEventListener("change", () => selectFixFile(fixFileInput.files[0]));
+fixDropzone.addEventListener("dragenter", (event) => {
+  event.preventDefault();
+  fixDropzone.classList.add("is-hot");
+});
+fixDropzone.addEventListener("dragover", (event) => event.preventDefault());
+fixDropzone.addEventListener("dragleave", (event) => {
+  event.preventDefault();
+  fixDropzone.classList.remove("is-hot");
+});
+fixDropzone.addEventListener("drop", (event) => {
+  event.preventDefault();
+  fixDropzone.classList.remove("is-hot");
+  selectFixFile(event.dataTransfer.files[0]);
+});
+fixUploadButton.addEventListener("click", async () => {
+  if (!fixSelectedFile || uploading) return;
+  const file = fixSelectedFile;
+  uploading = true;
+  fixUploadButton.disabled = true;
+  showWorking({
+    kicker: "Upload",
+    title: "Sending the clip",
+    fileName: file.name,
+    progress: 0,
+    message: "Uploading",
+  });
+  try {
+    const job = await upload(file, (fraction) => {
+      setProgress(fraction * 100);
+      progressMessage.textContent = "Uploading";
+    });
+    location.hash = `#/fix/${job.id}`;
+  } catch (error) {
+    uploading = false;
+    fixUploadButton.disabled = !fixSelectedFile;
+    show("fix");
+    showFixStep("upload");
+    fixUploadError.hidden = false;
+    fixUploadError.textContent = error.message;
+    return;
+  }
+  uploading = false;
+  await route();
+});
+
 uploadForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   if (!selectedFile || uploading) return;
@@ -1017,7 +1522,8 @@ uploadForm.addEventListener("submit", async (event) => {
       setProgress(fraction * 100);
       progressMessage.textContent = "Uploading";
     });
-    location.hash = `#/jobs/${job.id}`;
+    await api(`/api/jobs/${job.id}/start`, { method: "POST" });
+    location.hash = `#/jobs/${job.id}/qc`;
   } catch (error) {
     uploading = false;
     submitButton.disabled = !selectedFile;

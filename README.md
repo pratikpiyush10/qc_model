@@ -61,8 +61,8 @@ Without a key, frame extraction still finishes. The results page reports that th
 
 ## How to use
 
-1. Drop an `.mp4` on the upload form, or choose a file. H.264 in an MP4 is the expected input. The upload limit is 400 MB, and the scan stops at 20 minutes.
-2. Wait on the progress view while frames are extracted and then reviewed.
+1. The home page has two sections. **Open QC** goes to the quality-check page. **Open Minimal Fix** goes to the clothing-fix page. H.264 in an MP4 is the expected input. The upload limit is 400 MB, and the QC scan stops at 20 minutes. The fix page does not run QC.
+2. On the QC path, wait on the progress view while frames are extracted and then reviewed.
 3. On the results page, read the issues table. Severity is shown as Low, Medium, or High. Click a timestamp or a thumbnail to focus that key frame. The full gallery stays below the table.
 4. Read **Director's Suggestions** under the table. When the analysis finished with issues, the suggestions point at the matching timestamps. When it finished with none, the box shows standing continuity checks.
 5. Use **Guides** for Continuity rules, Direction rules, and Director's Input. Those pages are separate from the QC pass. Episode manuals and direction rules are not sent to Gemini.

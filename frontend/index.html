@@ -28,12 +28,33 @@
       </header>
 
       <main>
-        <section id="upload-view">
-          <p class="eyebrow">Upload</p>
+        <section id="home-view">
+          <p class="eyebrow">Start</p>
+          <h1>What do you want to do?</h1>
+          <p class="lede">Pick one path. Each one opens its own page.</p>
+          <div class="path-cards">
+            <a class="path-card path-qc" href="#/qc">
+              <p class="eyebrow">Quality check</p>
+              <h2>Run Quality Check</h2>
+              <p>Check continuity, characters, clothing, and props.</p>
+              <span class="primary">Open QC</span>
+            </a>
+            <a class="path-card path-fix" href="#/fix">
+              <p class="eyebrow">Minimal fix</p>
+              <h2>Fix Clothing / Continuity</h2>
+              <p>Change only the clothing using a reference image. This page does not run QC.</p>
+              <span class="primary">Open Minimal Fix</span>
+            </a>
+          </div>
+        </section>
+
+        <section id="upload-view" hidden>
+          <p class="eyebrow">Quality check</p>
           <h1>Check an episode</h1>
           <p class="lede">
             Pull key frames from an MP4, then check them for continuity and character changes.
           </p>
+          <a class="text-link" href="#/">Back</a>
           <p id="analysis-hint" class="note" hidden></p>
           <form id="upload-form">
             <button type="button" id="dropzone" class="dropzone">
@@ -50,6 +71,82 @@
             <h2>Recent</h2>
             <div id="recent-list" class="recent-list"></div>
           </section>
+        </section>
+
+        <section id="fix-view" hidden>
+          <p class="eyebrow">Minimal fix</p>
+          <h1>Fix clothing</h1>
+          <p id="fix-context" class="note"></p>
+          <p class="lede">
+            Upload a clip, then a reference image of the correct clothing.
+            Motion, face, camera, and background stay as they are. This page does not run a quality check.
+          </p>
+          <a id="fix-back" class="text-link" href="#/">Back</a>
+
+          <div id="fix-upload">
+            <button type="button" id="fix-dropzone" class="dropzone">
+              <span class="drop-title" id="fix-drop-title">Drop an MP4 here</span>
+              <span class="drop-sub" id="fix-drop-sub">The clip to edit. QC will not run.</span>
+            </button>
+            <input id="fix-file" class="sr-only" type="file" accept="video/mp4,.mp4" />
+            <div class="form-row">
+              <button id="fix-upload-button" class="primary" type="button" disabled>Use this clip</button>
+              <p id="fix-upload-error" class="error" hidden></p>
+            </div>
+          </div>
+
+          <div id="fix-setup">
+            <video id="fix-original" class="fix-video" controls playsinline></video>
+            <h2 class="fix-refs-title">References</h2>
+            <div class="fix-refs">
+              <section>
+                <p class="fix-label">Reference from video</p>
+                <p class="note">Click one or more frames for the current look.</p>
+                <div id="fix-frame-strip" class="fix-strip"></div>
+              </section>
+              <section>
+                <p class="fix-label">Add reference image</p>
+                <button type="button" id="fix-image-drop" class="dropzone fix-image-drop">
+                  <span class="drop-title">Drop images here</span>
+                  <span class="drop-sub">JPEG, PNG, or WebP. The desired clothing.</span>
+                </button>
+                <input id="fix-image" class="sr-only" type="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" multiple />
+                <div id="fix-image-strip" class="fix-strip"></div>
+                <label class="fix-label" for="fix-prompt">What should change (optional)</label>
+                <textarea id="fix-prompt" rows="3" placeholder="Optional. Describe the clothing change."></textarea>
+              </section>
+            </div>
+            <p id="fix-error" class="error" hidden></p>
+            <div class="form-row">
+              <button type="button" id="fix-generate" class="primary" disabled>Generate Fix</button>
+            </div>
+          </div>
+
+          <div id="fix-progress" hidden>
+            <div id="fix-bar" class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span id="fix-fill"></span>
+            </div>
+            <p id="fix-status" class="message" aria-live="polite"></p>
+          </div>
+
+          <div id="fix-compare" hidden>
+            <div class="fix-pair">
+              <div>
+                <p class="fix-label">Original</p>
+                <video id="fix-compare-original" class="fix-video" controls playsinline></video>
+              </div>
+              <div>
+                <p class="fix-label">Fixed</p>
+                <video id="fix-compare-fixed" class="fix-video" controls playsinline></video>
+              </div>
+            </div>
+            <p id="fix-kept" class="note" hidden>This fix is saved on this machine.</p>
+            <div class="form-row">
+              <button type="button" id="fix-accept" class="primary">Accept Fix</button>
+              <a id="fix-download" class="ghost fix-download" href="" download="fixed.mp4">Download Fixed Video</a>
+              <button type="button" id="fix-again" class="ghost">Try Again</button>
+            </div>
+          </div>
         </section>
 
         <section id="progress-view" hidden>

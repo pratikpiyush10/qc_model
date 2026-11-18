@@ -18,6 +18,7 @@ JPEG_MAX_EDGE = 960
 JPEG_QUALITY = 85
 MAX_DURATION_SEC = 20 * 60
 DEFAULT_LITELLM_MODEL = "google/gemini-3.8-flash"
+DEFAULT_SEEDANCE_MODEL = "runwayml/seedance2_5"
 DEFAULT_LITELLM_BASE_URL = "https://litellm.kukufm.com"
 DEFAULT_ANALYSIS_LEVEL = "high"
 # How many frames are sent, how they are grouped, and how small the images are.
@@ -36,11 +37,13 @@ class Settings:
     upload_dir: Path
     frames_dir: Path
     jobs_dir: Path
+    fixes_dir: Path
     frontend_dir: Path
     max_upload_bytes: int
     max_upload_mb: float
     litellm_api_key: str
     litellm_model: str
+    seedance_model: str
     litellm_base_url: str
     litellm_window: int
     analysis_level: str
@@ -107,6 +110,7 @@ def load_settings() -> Settings:
     data_dir = Path(os.environ.get("QC_DATA_DIR", root / "data")).expanduser()
     max_mb = _max_upload_mb()
     model = os.environ.get("QC_LITELLM_MODEL", DEFAULT_LITELLM_MODEL).strip()
+    seedance = os.environ.get("QC_SEEDANCE_MODEL", DEFAULT_SEEDANCE_MODEL).strip()
     base_url = os.environ.get("QC_LITELLM_BASE_URL", DEFAULT_LITELLM_BASE_URL).strip()
     level = _analysis_level()
     preset = ANALYSIS_LEVELS[level]
@@ -119,11 +123,13 @@ def load_settings() -> Settings:
         upload_dir=data_dir / "uploads",
         frames_dir=data_dir / "frames",
         jobs_dir=data_dir / "jobs",
+        fixes_dir=data_dir / "fixes",
         frontend_dir=root / "frontend",
         max_upload_bytes=int(max_mb * 1024 * 1024),
         max_upload_mb=max_mb,
         litellm_api_key=os.environ.get("LITELLM_API_KEY", "").strip(),
         litellm_model=model or DEFAULT_LITELLM_MODEL,
+        seedance_model=seedance or DEFAULT_SEEDANCE_MODEL,
         litellm_base_url=base_url or DEFAULT_LITELLM_BASE_URL,
         litellm_window=window if window is not None else preset["window"],
         analysis_level=level,
@@ -131,12 +137,13 @@ def load_settings() -> Settings:
         analysis_overlap=preset["overlap"],
         analysis_image_edge=image_edge if image_edge is not None else preset["image_edge"],
     )
-    for path in (settings.upload_dir, settings.frames_dir, settings.jobs_dir):
+    for path in (settings.upload_dir, settings.frames_dir, settings.jobs_dir, settings.fixes_dir):
         path.mkdir(parents=True, exist_ok=True)
     return settings
 
 
 settings = load_settings()
+FIXES_DIR = settings.fixes_dir
 
 
 def upload_path(job_id: str) -> Path:
@@ -145,3 +152,11 @@ def upload_path(job_id: str) -> Path:
 
 def frames_path(job_id: str) -> Path:
     return settings.frames_dir / job_id
+
+
+def fix_dir(fix_id: str) -> Path:
+    return settings.fixes_dir / fix_id
+
+
+def fix_video_path(fix_id: str) -> Path:
+    return fix_dir(fix_id) / "fixed.mp4"
